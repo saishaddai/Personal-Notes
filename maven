@@ -1,3 +1,6 @@
+#All the mvn commands take $MAVEN_OPTS environment variable if can. Example:
+MAVEN_OPTS=”-Xmx512m -Xms256m -XX:MaxPermSize=128m”  
+
 #to start a mvn project 
 #X = the name of the company (ex. com.saicorp)
 #Y = the name of the project (ex. TestProject)
@@ -16,4 +19,72 @@ mvn clean build
 #to clean, build and run a project in tomcat. Must be declared the tomcat plugin in the pom.xml
 clean tomcat7:run
 
+#to just compile
+mvn compile  
 
+#to compile offline (it won't download dependencies nor updates teh current ones)
+mvn -o compile  
+
+#to install the target directory to the respective repository
+mvn install  
+
+#to package the target directory as jar or war (specified by the pom file, ex <packaging>war</packaging>)
+mvn package
+
+#to generate a new Eclipse project
+mvn eclipse:eclipse  
+
+#to only run unit tests
+mvn test
+
+#to run unit tests and print the output to console rather than to file
+mvn -Dsurefire.useFile=false test  
+
+#to run individual test
+mvn test –Dtest=road.to.my.Test  
+
+#to package without running tests
+mvn package -Dmaven.test.skip  
+
+#to install without Running Tests
+mvn install -Dmaven.test.skip  
+
+#to download source code into your maven repo (only for eclipse's purposes)
+mvn eclipse:clean eclipse:eclipse –DdownloadSources=true  
+
+#to create a new project without archetype
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app  
+
+#to create a Web Application
+mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes  
+            -DarchetypeArtifactId=maven-archetype-webapp -DgroupId=com.mycompany  
+            -DartifactId=my-app  
+
+#Start embedded web container
+#X=jetty
+#X=tomcat
+mvn X:run  
+
+#it deploys a WAR to embedded instance of a web container and starts it
+mvn X:run-war  
+
+#to specify Java Build version
+
+<build>
+<plugins>
+  <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <configuration>
+      <source>1.5</source>
+      <target>1.5</target>
+    </configuration>
+  </plugin>
+ </plugins>
+</build>
+
+#to generate site for a single project (i never used but put it anyway)
+mvn site  
+
+#to generate Javadoc
+mvn javadoc:javadoc  
