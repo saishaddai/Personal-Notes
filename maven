@@ -1,0 +1,19 @@
+#to start a mvn project 
+#X = the name of the company (ex. com.saicorp)
+#Y = the name of the project (ex. TestProject)
+#Z = a type of maven archetype "http://books.sonatype.com/mvnref-book/reference/archetype-sect-using.html"
+mvn archetype:generate -DgroupId=X -DartifactId=Y -DarchetypeArtifactId=Z -DinteractiveMode=false
+
+#to clean a project
+mvn clean
+
+#to build a project, it tries to run all the test, if one fails it won't build the project
+mvn build
+
+#to clean and build
+mvn clean build
+
+#to clean, build and run a project in tomcat. Must be declared the tomcat plugin in the pom.xml
+clean tomcat7:run
+
+
