@@ -1,5 +1,17 @@
-#All the mvn commands take $MAVEN_OPTS environment variable if can. Example:
-MAVEN_OPTS=”-Xmx512m -Xms256m -XX:MaxPermSize=128m”  
+#lil' reminder of how i did install maven
+cd /path/to/
+wget http://apache.webxcreen.org/maven/maven-3/3.2.1/binaries/apache-maven-3.2.1-bin.tar.gz
+mv apache-maven-3.2.1-bin.tar.gz maven-3.2.1.tag.gz
+tar zxvf apache-maven-3.2.1-bin.tar.gz
+rm -rf maven-3.2.1.tag.gz
+
+#edit .bashrc in order to set mvn as an alias
+alias mvn='/path/to/maven-3.2.1/bin/mvn
+#before leave .bashrc set the MAVEN_OPTS environment variable and M2_HOME.
+#just in case recheck if JAVA_HOME already exist, if not, also put it also in .bashrc
+export MAVEN_OPTS="-Xms512m -Xmx2g -XX:PermSize=256M -XX:MaxPermSize=256m";
+export JAVA_HOME="/path/to/java/";
+export M2_HOME="/path/to/maven-3.2.1/";
 
 #to start a mvn project 
 #X = the name of the company (ex. com.saicorp)
