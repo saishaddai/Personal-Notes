@@ -1,4 +1,4 @@
-test
+commands than any developer must remember
 ====
 
-My testing repository. First attempt
+maven is a reminder of common mvn commands
