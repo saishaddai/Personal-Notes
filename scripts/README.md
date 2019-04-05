@@ -1,10 +1,10 @@
 # Scripts
 Some scripts I took from experience that may be useful someday
 
-[bash-aliases.sh](https://github.com/saishaddai/Personal-Notes/blob/master/scripts/bash_aliases.sh) A list of useful commands to add to your .bashrc file in Linux/Unix
-[build_minimum.gradle](https://github.com/saishaddai/Personal-Notes/blob/master/scripts/build_minimum.gradle) A minimum build.gradle file for Android projects. Works on Gradle plugin v1
-[emacs_react_native.txt](https://github.com/saishaddai/Personal-Notes/blob/master/scripts/emacs_react_native.txt) Emacs Lisp file with commands and hooks to work with React Native
-[maven_fullstack_java.sh](https://github.com/saishaddai/Personal-Notes/blob/master/scripts/maven_fullstack_java.sh) Alist of shell commands using maven and different calls to tasks and methods
+- [bash-aliases.sh](https://github.com/saishaddai/Personal-Notes/blob/master/scripts/bash_aliases.sh) A list of useful commands to add to your .bashrc file in Linux/Unix
+- [build_minimum.gradle](https://github.com/saishaddai/Personal-Notes/blob/master/scripts/build_minimum.gradle) A minimum build.gradle file for Android projects. Works on Gradle plugin v1
+- [emacs_react_native.txt](https://github.com/saishaddai/Personal-Notes/blob/master/scripts/emacs_react_native.txt) Emacs Lisp file with commands and hooks to work with React Native
+- [maven_fullstack_java.sh](https://github.com/saishaddai/Personal-Notes/blob/master/scripts/maven_fullstack_java.sh) Alist of shell commands using maven and different calls to tasks and methods
 
 
 ## License 
