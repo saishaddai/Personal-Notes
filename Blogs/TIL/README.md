@@ -1,5 +1,6 @@
 
 <p align="center">![Today I learned](https://cdn-images-1.medium.com/max/1600/1*jr44jJVJnMQhWu1RQusfLQ.png)</p>
+<p align="center"><img src="https://cdn-images-1.medium.com/max/1600/1*jr44jJVJnMQhWu1RQusfLQ.png/></p>
 # Personal Blogs
 Index of my personal blogs
 
