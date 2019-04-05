@@ -1,6 +1,4 @@
-<p align="center"><img src="https://cdn-images-1.medium.com/max/1600/1*jr44jJVJnMQhWu1RQusfLQ.png"/></p>
 <p align="center"><img src="https://github.com/saishaddai/Personal-Notes/blob/master/Blogs/TIL/til_2019_medium.png"/></p>
-
 
 ## Medium (Feb 24th, 2016 - ? )
 - Mar 25th, 2019 [Deep Links in Android](https://medium.com/@saishaddai/deep-links-in-android-ff4d5b9110d0)
