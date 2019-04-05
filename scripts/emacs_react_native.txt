@@ -1,0 +1,22 @@
+;;; Emacs Lisp script to make easier to code for React Native
+;;; https://code-and-cocktails.herokuapp.com/blog/2016/01/10/emacs-setup-for-react-slash-reactnative/
+
+(add-to-list 'auto-mode-alist '("\\.jsx?$" . web-mode))
+(setq web-mode-markup-indent-offset 2
+        web-mode-css-indent-offset 2
+        web-mode-code-indent-offset 2)
+  (setq js-indent-level 2)
+  (require 'nvm)
+(nvm-use (caar (last (nvm--installed-versions))))
+(add-hook 'projectile-after-switch-project-hook 'mjs/setup-local-eslint)
+
+(defun mjs/setup-local-eslint ()
+    "If ESLint found in node_modules directory - use that for flycheck.
+Intended for use in PROJECTILE-AFTER-SWITCH-PROJECT-HOOK."
+    (interactive)
+    (let ((local-eslint (expand-file-name "./node_modules/.bin/eslint")))
+      (setq flycheck-javascript-eslint-executable
+            (and (file-exists-p local-eslint) local-eslint))))
+            (with-eval-after-load 'flycheck
+    (push 'web-mode (flycheck-checker-get 'javascript-eslint 'modes))))
+    
