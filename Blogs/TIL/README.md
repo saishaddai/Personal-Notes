@@ -1,11 +1,12 @@
-# Android Kotlin Components
+![Store Logo](https://cdn-images-1.medium.com/max/1600/1*jr44jJVJnMQhWu1RQusfLQ.png)
+# Personal Blogs
 Index of my personal blogs at NS-TIL and medium
 
-## Today I learned at Nearsoft
-- September 26th, 2018 [UnsupportedOperationException / fixed-size List?](https://tilns.herokuapp.com/posts/97fee6c06f-unsupportedoperationexception-fixedsize-list)
+## Today I learned @ Nearsoft (Apr 6th, 2016 - Sep 26th, 2018)
+- Sep 26th, 2018 [UnsupportedOperationException / fixed-size List?](https://tilns.herokuapp.com/posts/97fee6c06f-unsupportedoperationexception-fixedsize-list)
 
-## Medium
-- March 25th, 2019 [UnsupportedOperationException / fixed-size List?](https://medium.com/@saishaddai/deep-links-in-android-ff4d5b9110d0)
+## Medium (Feb 24th, 2016 - ? )
+- Mar 25th, 2019 [Deep Links in Android](https://medium.com/@saishaddai/deep-links-in-android-ff4d5b9110d0)
 
 
 ## License 
