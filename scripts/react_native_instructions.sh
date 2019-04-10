@@ -59,3 +59,18 @@ mkdir screens
 ##install react-navigation
 npm install react-navigation --save
 
+##install redux
+npm install --save redux redux-thunk react-redux
+
+##Install firebase. Usage import * as firebase from 'firebase';
+npm install --save firebase
+
+##Install AWS3 library to upload images in there. Usage:
+##import {ImagePicker } from  'expo';
+##import { RNS3 } from 'react-native-aws3';
+npm install --save react-native-aws3
+
+##Install react native swipe cards that looks like Tinder app
+npm install --save react-native-swipe-cards
+
+
