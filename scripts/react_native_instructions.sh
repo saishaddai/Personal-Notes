@@ -73,4 +73,19 @@ npm install --save react-native-aws3
 ##Install react native swipe cards that looks like Tinder app
 npm install --save react-native-swipe-cards
 
+##Install a react natice chat. Usage import { GiftedChat } from 'react-native-gifted-chat';
+npm install --save react-native-gifted-chat
+
+##Install geo location library. geohash also works on Node.js. Usage 
+##import Geohash from 'latlon-geohash';
+##import { Location, Permissions } from 'expo';
+npm install --save latlon-geohash
+
+##to publish in expo site. Fill up the app.json file with the proper information such as app id for iOS and Android
+##Check up https://expo.io/@your_username/apps_name
+exp publish
+
+##pubslish in the iTunes Store. Fill up the questions the terminal asks
+exp build:ios
+
 
