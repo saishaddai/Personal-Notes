@@ -9,7 +9,8 @@
 ## Today I learned @ Nearsoft (Apr 6th, 2016 - Sep 26th, 2018)
 - Sep 26th, 2018 [UnsupportedOperationException / fixed-size List?](https://tilns.herokuapp.com/posts/97fee6c06f-unsupportedoperationexception-fixedsize-list)
 
-- Jun 26th, 2016 [The difference between androidTest and test](https://tilns.herokuapp.com/posts/d29f741ae3-the-difference-between-androidtest-and-test)
+[How to add basic Crashlytics support](https://tilns.herokuapp.com/posts/27e1f7b90d-how-to-add-basic-crashlytics-support)
+[The difference between androidTest and test](https://tilns.herokuapp.com/posts/d29f741ae3-the-difference-between-androidtest-and-test)
 - Jun 26th, 2016 [Easy way to query dates in SQLite](https://tilns.herokuapp.com/posts/47d0ee6ae7-easy-way-to-query-dates-in-sqlite)
 - Jun 26th, 2016 [How to get all images in gallery in Android](https://tilns.herokuapp.com/posts/ae3af2d5e0-how-to-get-all-images-in-gallery-in-android)
 - Jun 26th, 2016 [How to get the count of registers with a condition](https://tilns.herokuapp.com/posts/aacd8068e1-how-to-get-the-count-of-registers-with-a-condition)
@@ -25,22 +26,3 @@
 - Jun 20th, 2016 [How to create a signed APK using Eclipse in 2016](https://tilns.herokuapp.com/posts/86a6563152-how-to-create-a-signed-apk-using-eclipse-in-2016)
 - Apr 7th, 2016 [System.exit(0) in Android](https://tilns.herokuapp.com/posts/4ef8fb0955-systemexit0-in-android)
 - Apr 6th, 2016 [How to remove the title of a Screen](https://tilns.herokuapp.com/posts/75fc8625ac-how-to-remove-the-title-of-a-screen)
-
-
----
-
-## License 
-```
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
