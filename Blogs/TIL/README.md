@@ -7,14 +7,14 @@
 
 ---
 ## Today I learned @ Nearsoft (Apr 6th, 2016 - Sep 26th, 2018)
-- [UnsupportedOperationException / fixed-size List?](https://tilns.herokuapp.com/posts/97fee6c06f-unsupportedoperationexception-fixedsize-list) #Android
-- [How to add basic Crashlytics support](https://tilns.herokuapp.com/posts/27e1f7b90d-how-to-add-basic-crashlytics-support) #Android
-- [The difference between androidTest and test](https://tilns.herokuapp.com/posts/d29f741ae3-the-difference-between-androidtest-and-test) #Android
-- [Easy way to query dates in SQLite](https://tilns.herokuapp.com/posts/47d0ee6ae7-easy-way-to-query-dates-in-sqlite) #SQLite
-- [How to get all images in gallery in Android](https://tilns.herokuapp.com/posts/ae3af2d5e0-how-to-get-all-images-in-gallery-in-android) #Android
-- [How to get the count of registers with a condition](https://tilns.herokuapp.com/posts/aacd8068e1-how-to-get-the-count-of-registers-with-a-condition) #SQL
-- [Did you see "Avoid passing null as the view root”?](https://tilns.herokuapp.com/posts/1c61c3ca7f-did-you-see-avoid-passing-null-as-the-view-root) #Android
-- [How to disable checkboxes with style](https://tilns.herokuapp.com/posts/a53f182769-how-to-disable-checkboxes-with-style) #Android
+1. [UnsupportedOperationException / fixed-size List?](https://tilns.herokuapp.com/posts/97fee6c06f-unsupportedoperationexception-fixedsize-list) #Android
+1. [How to add basic Crashlytics support](https://tilns.herokuapp.com/posts/27e1f7b90d-how-to-add-basic-crashlytics-support) #Android
+1. [The difference between androidTest and test](https://tilns.herokuapp.com/posts/d29f741ae3-the-difference-between-androidtest-and-test) #Android
+1. [Easy way to query dates in SQLite](https://tilns.herokuapp.com/posts/47d0ee6ae7-easy-way-to-query-dates-in-sqlite) #SQLite
+1. [How to get all images in gallery in Android](https://tilns.herokuapp.com/posts/ae3af2d5e0-how-to-get-all-images-in-gallery-in-android) #Android
+1. [How to get the count of registers with a condition](https://tilns.herokuapp.com/posts/aacd8068e1-how-to-get-the-count-of-registers-with-a-condition) #SQL
+1. [Did you see "Avoid passing null as the view root”?](https://tilns.herokuapp.com/posts/1c61c3ca7f-did-you-see-avoid-passing-null-as-the-view-root) #Android
+1. [How to disable checkboxes with style](https://tilns.herokuapp.com/posts/a53f182769-how-to-disable-checkboxes-with-style) #Android
 - [I can't see the third button in a Dialog](https://tilns.herokuapp.com/posts/856cb752be-i-cant-see-the-third-button-in-a-dialog) #Android
 - [Best way to know if there's data in a SQLite table](https://tilns.herokuapp.com/posts/ed8ef689c9-best-way-to-know-if-theres-data-in-a-sqlite-table) #SQLite
 - [Sort numbers in O(n)? (corrected)](https://tilns.herokuapp.com/posts/9b3e84443a-sort-numbers-in-on-corrected) #Algorithms
