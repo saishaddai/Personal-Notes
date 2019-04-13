@@ -22,6 +22,24 @@
 ## Today I learned @ Nearsoft (Apr 6th, 2016 - Sep 26th, 2018)
 1. [UnsupportedOperationException / fixed-size List?](https://tilns.herokuapp.com/posts/97fee6c06f-unsupportedoperationexception-fixedsize-list) #Android
 
+1. [How to change margins programatically?](https://tilns.herokuapp.com/posts/6c87a65680-how-to-change-margins-programatically) #Android
+1. [How to know which layout XML size you’re using?](https://tilns.herokuapp.com/posts/ed463fb705-how-to-know-which-layout-xml-size-youre-using) #Android
+1. [Lil' script to find ilegal files in bash](https://tilns.herokuapp.com/posts/e8b03f6ba5-lil-script-to-find-ilegal-files-in-bash) #Bash
+1. [How to properly show a remote PDF in WebView?](https://tilns.herokuapp.com/posts/5bb492f7b4-how-to-properly-show-a-remote-pdf-in-webview) #Android
+1. [How to put a percent sign in strings.xml](https://tilns.herokuapp.com/posts/bfa297cd3c-how-to-put-a-percent-sign-in-stringsxml) #Android
+1. [How to know the screen size at running time?](https://tilns.herokuapp.com/posts/9880a13941-how-to-know-the-screen-size-at-running-time) #Android
+1. [How to set properly an image width and height?](https://tilns.herokuapp.com/posts/1ebd215370-how-to-set-properly-an-image-width-and-height) #Android
+1. [How to make an activity available to other apps?](https://tilns.herokuapp.com/posts/ef950162c4-how-to-make-an-activity-available-to-other-apps) #Android
+1. [Values in Manifest.xml with manifestPlaceholders](https://tilns.herokuapp.com/posts/e2361e23de-values-in-manifestxml-with-manifestplaceholders) #Android
+1. [Android Studio doesn't care about permissions](https://tilns.herokuapp.com/posts/35877e3170-android-studio-doesnt-care-about-permissions) #Android
+1. [how to focus to the top with Scroll View?](https://tilns.herokuapp.com/posts/b8265b6495-how-to-focus-to-the-top-with-scroll-view) #Android
+1. [What is the Benford's Law for random numbers?](https://tilns.herokuapp.com/posts/241ee1c3a9-what-is-the-benfords-law-for-random-numbers) #Statistics
+1. [How to randomly pick a line in a file in Bash?](https://tilns.herokuapp.com/posts/1d3a55d115-how-to-randomly-pick-a-line-in-a-file-in-bash) #Bash
+1. [What is a DeadObjectException?](https://tilns.herokuapp.com/posts/cf0d923dc8-what-is-a-deadobjectexception) #Android
+1. [shadow$ klass_ and shadow$ monitor_in debug](https://tilns.herokuapp.com/posts/c04f2959a0-shadowklass-and-shadowmonitor-in-debug) #Android
+1. [Flavors and what you can put in there](https://tilns.herokuapp.com/posts/e9929fc743-flavors-and-what-you-can-put-in-there) #Android
+1. [ListView and RecyclerView](https://tilns.herokuapp.com/posts/3fa61f8889-listview-and-recyclerview) #Android
+1. [Location Permissions and what they do](https://tilns.herokuapp.com/posts/4dc1979e76-location-permissions-and-what-they-do) #Android
 1. [How to add basic Crashlytics support](https://tilns.herokuapp.com/posts/27e1f7b90d-how-to-add-basic-crashlytics-support) #Android
 1. [The difference between androidTest and test](https://tilns.herokuapp.com/posts/d29f741ae3-the-difference-between-androidtest-and-test) #Android
 1. [Easy way to query dates in SQLite](https://tilns.herokuapp.com/posts/47d0ee6ae7-easy-way-to-query-dates-in-sqlite) #SQLite
