@@ -1,6 +1,7 @@
 <p align="center"><img src="https://github.com/saishaddai/Personal-Notes/blob/master/Blogs/TIL/til_2019_medium.png"/></p>
 
 ## Medium (Feb 24th, 2016 - ? )
+- Apr 15, 2019 [React Native: undefined is not a function(evaluating ‘(0, _reactNavigation.StackNavigator)’)](https://medium.com/@saishaddai/react-native-undefined-is-not-a-function-evaluating-0-reactnavigation-stacknavigator-1d9979eba2e8)
 - Apr 8, 2019 [Static TAG variable in Log.d from Java to Kotlin](https://medium.com/@saishaddai/static-tag-variable-in-log-d-from-java-to-kotlin-e09dea89701b)
 - Mar 25, 2019 [Deep Links in Android](https://medium.com/@saishaddai/deep-links-in-android-ff4d5b9110d0)
 - Mar 18, 2019 [Little tip about Exceptions’ interoperability between Kotlin & Java](https://medium.com/@saishaddai/little-tip-about-exceptions-interoperability-between-kotlin-java-e1e7b13f5431)
