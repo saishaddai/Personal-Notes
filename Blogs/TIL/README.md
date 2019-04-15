@@ -21,7 +21,31 @@
 ---
 ## Today I learned @ Nearsoft (Apr 6th, 2016 - Sep 26th, 2018)
 1. [UnsupportedOperationException / fixed-size List?](https://tilns.herokuapp.com/posts/97fee6c06f-unsupportedoperationexception-fixedsize-list) #Android
-
+1. [My stupid trick to create queries with "IN" clause](https://tilns.herokuapp.com/posts/a0e9ce7740-my-stupid-trick-to-create-queries-with-in-clause) #Java #SQL
+1. [What is a Trigram Phrase Matching Algorithm?](https://tilns.herokuapp.com/posts/37bcc754e6-what-is-a-trigram-phrase-matching-algorithm) #SQL
+1. [Start an Activity with Anko](https://tilns.herokuapp.com/posts/b5813a6bc5-start-an-activity-with-anko) #Android
+1. [Custom Toasts in Android](https://tilns.herokuapp.com/posts/c0d7cb4332-custom-toasts-in-android) #Android
+1. [How to clean from unused resources?](https://tilns.herokuapp.com/posts/1d01d81c0f-how-to-clean-from-unused-resources) #Android
+1. [An useful "ListView inside a ListView" Hack](https://tilns.herokuapp.com/posts/c7782e36c4-an-useful-listview-inside-a-listview-hack) #Android
+1. [How to read CBR and CBZ files in programs?](https://tilns.herokuapp.com/posts/8fc38d4163-how-to-read-cbr-and-cbz-files-in-programs) #Android
+1. [Margins in Custom Dialogs are ignored](https://tilns.herokuapp.com/posts/1544f7180e-margins-in-custom-dialogs-are-ignored) #Android
+1. [Another difference between Dialog and AlertDialog](https://tilns.herokuapp.com/posts/1809c6f84d-another-difference-between-dialog-and-alertdialog) #Android
+1. [How to set a custom font type in any View?](https://tilns.herokuapp.com/posts/0b83737efb-how-to-set-a-custom-font-type-in-any-view) #Android
+1. [The Anko way to do AsyncTasks](https://tilns.herokuapp.com/posts/68378e66ff-the-anko-way-to-do-asynctasks) #Android
+1. [How inputType can change your beautiful styles?](https://tilns.herokuapp.com/posts/3b04fa47d6-how-inputtype-can-change-your-beautiful-styles) #Android
+1. [How to change button background color in a Switch?](https://tilns.herokuapp.com/posts/19193ac34c-how-to-change-button-background-color-in-a-switch) #Android
+1. [Bad practice: AlertDialog inside other AlertDialog](https://tilns.herokuapp.com/posts/976df4343f-bad-practice-alertdialog-inside-other-alertdialog) #Android
+1. [How to resize the height of a ListView?](https://tilns.herokuapp.com/posts/616d60f8be-how-to-resize-the-height-of-a-listview) #Android
+1. [How to enable pinch-zoom in a WebView for PDF's?](https://tilns.herokuapp.com/posts/734512067d-how-to-enable-pinchzoom-in-a-webview-for-pdfs) #Android
+1. [How accurate are Localisation Providers?](https://tilns.herokuapp.com/posts/056cf5da09-how-accurate-are-localisation-providers) #Android
+1. [How to know if the soft keyboard is visible?](https://tilns.herokuapp.com/posts/f58f074789-how-to-know-if-the-soft-keyboard-is-visible) #Android
+1. [How to open implicitly the keyboard in a EditText?](https://tilns.herokuapp.com/posts/86733b8cfc-how-to-open-implicitly-the-keyboard-in-a-edittext) #Android
+1. [How to change the theme in AccountPicker?](https://tilns.herokuapp.com/posts/72fd6f2a42-how-to-change-the-theme-in-accountpicker) #Android
+1. [Handle parameters in Google Sign-In redirects](https://tilns.herokuapp.com/posts/d32c4a72ee-handle-parameters-in-google-signin-redirects) #Android #GoogleSignIn
+1. [How to make your app to compile faster in multidex](https://tilns.herokuapp.com/posts/36dc327a41-how-to-make-your-app-to-compile-faster-in-multidex) #Android
+1. [How to store the printStackTrace() in a String?](https://tilns.herokuapp.com/posts/d7ba3c0edc-how-to-store-the-printstacktrace-in-a-string) #Java
+1. [Home-made-Crashlytics](https://tilns.herokuapp.com/posts/e819e858bb-homemadecrashlytics) #Android
+1. [How to know if you're using a tablet in code?](https://tilns.herokuapp.com/posts/b96d8e4903-how-to-know-if-youre-using-a-tablet-in-code) #Android
 1. [How to change margins programatically?](https://tilns.herokuapp.com/posts/6c87a65680-how-to-change-margins-programatically) #Android
 1. [How to know which layout XML size you’re using?](https://tilns.herokuapp.com/posts/ed463fb705-how-to-know-which-layout-xml-size-youre-using) #Android
 1. [Lil' script to find ilegal files in bash](https://tilns.herokuapp.com/posts/e8b03f6ba5-lil-script-to-find-ilegal-files-in-bash) #Bash
