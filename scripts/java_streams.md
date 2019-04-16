@@ -1,4 +1,4 @@
-###Consider the following class. I'll be using this class for the following examples
+# Consider the following class. I'll be using this class for the following examples
 
 ```
 public class User {
