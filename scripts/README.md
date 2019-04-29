@@ -6,6 +6,7 @@ Some scripts I took from experience that may be useful someday
 - [emacs_react_native.txt](https://github.com/saishaddai/Personal-Notes/blob/master/scripts/emacs_react_native.txt) Emacs Lisp file with commands and hooks to work with React Native
 - [maven_fullstack_java.sh](https://github.com/saishaddai/Personal-Notes/blob/master/scripts/maven_fullstack_java.sh) A list of shell commands using maven and different calls to tasks and methods
 - [react_native_instructions.sh](https://github.com/saishaddai/Personal-Notes/blob/master/scripts/react_native_instructions.sh) A few commands to install and run React Nartive with comments if something else comes up
+- [streams_java_kotlin.md](https://github.com/saishaddai/Personal-Notes/blob/master/scripts/streams_java_kotlin.md) Some examples in Java and Kotlin for streams
 
 
 ## License 
