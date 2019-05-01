@@ -56,3 +56,8 @@ companion object {
     }
 }    
 ```
+## How to create a new Room Database intance 
+```
+//always use the application context or the 
+val myRoomDatabaseClass : MyRoomDatabaseClass = Room.databaseBuilder(context.applicationContext, MyRoomDatabaseClass::class.java, "database_name").build()    
+```
