@@ -1,7 +1,8 @@
 # Github quick notes
 =================
 
-These are my notes to quick come back to git and github
+These are my notes to quick come back to git and github. This is the source:
+- [Git and GitHub For Beginners](https://www.udemy.com/course/gitandgithubforbeginners/) by Yaswanth Sai Palaghat @ Udemy 
 
 **Pushing First Project to github using GIT**
 -----------------
