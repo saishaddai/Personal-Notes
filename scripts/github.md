@@ -1,5 +1,5 @@
-# Github quick notes
-=================
+Github quick notes
+================
 
 These are my notes to quick come back to git and github. This is the source:
 - [Git and GitHub For Beginners](https://www.udemy.com/course/gitandgithubforbeginners/) by Yaswanth Sai Palaghat @ Udemy 
@@ -15,3 +15,16 @@ These are my notes to quick come back to git and github. This is the source:
 * git commit -m "description of your changes"
 * git remote add origin link
 * git push -u origin master
+
+**Branching and Merging**
+-----------------
+
+* Create a branch in Github
+* git fetch
+* git pull 
+* git checkout name_of_the_branch
+* Make changes
+* git add .
+* git commit -m "message to commit"
+* git push
+
