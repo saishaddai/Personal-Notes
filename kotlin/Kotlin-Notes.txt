@@ -1,1 +1,31 @@
 Kotlin Notes
+
+
+Basic Types: Numbers, Unsigned Numbers, Booleans, Strings, Characters, Arrays
+Numbers: Byte, Short, Int, Long, Float, Double
+Unsigned: UByte, UShort, UInt, ULong (No UFloat nor UDouble)
+Classes:
+Constructors: Primary and Secondary
+init blocks:
+Open Classes:
+Interfaces:
+Java Interfaces VS Kotlin Interfaces
+Java abstract classes VS Kotlin Open Classes
+companion objects:
+Java static final variables vs Kotlin companion objects
+SAM Conversions:
+Visibility modifiers: public, private, internal, protected
+Class Members: public, private, internal, protected
+Extensions:
+Data Classes:
+Sealed Classes:
+Sealed Inerfaces:
+Nested Clases:
+Inner Classes:
+Enums and annonimous classes:
+Inline Value Classes: @JvmInLine
+Delegation: Overriding and use of 'by'
+
+
+
+
