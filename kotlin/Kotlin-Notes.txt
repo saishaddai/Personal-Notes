@@ -6,7 +6,7 @@ Numbers: Byte, Short, Int, Long, Float, Double
 Unsigned: UByte, UShort, UInt, ULong (No UFloat nor UDouble)
 Classes:
 Constructors: Primary and Secondary
-init blocks:
+init blocks: a special block of code that is executed when an object is created. It is used to initialize the properties of a class and perform any necessary setup. Used for Initialization, Validation, Setup, Logging
 Open Classes:
 Interfaces:
 Java Interfaces VS Kotlin Interfaces
@@ -25,7 +25,3 @@ Inner Classes:
 Enums and annonimous classes:
 Inline Value Classes: @JvmInLine
 Delegation: Overriding and use of 'by'
-
-
-
-
