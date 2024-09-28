@@ -1,0 +1,10 @@
+Dependency Injection vs Inversion of Control
+Dependency Injection is a design pattern that implements the Inversion of Control principle. 
+It's a technique where an object receives its dependencies from an external source, rather than creating them itself
+Scope: IoC is a broader concept that encompasses various techniques, including DI. DI is a specific technique that implements IoC.
+Focus: IoC focuses on decoupling components from their dependencies, while DI focuses on providing dependencies to components.
+Mechanism: IoC can be achieved through various mechanisms, including DI, Service Locator, and Factory patterns. DI is a specific mechanism that implements IoC.
+
+
+
+  
