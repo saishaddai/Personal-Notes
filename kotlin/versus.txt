@@ -5,6 +5,16 @@ Scope: IoC is a broader concept that encompasses various techniques, including D
 Focus: IoC focuses on decoupling components from their dependencies, while DI focuses on providing dependencies to components.
 Mechanism: IoC can be achieved through various mechanisms, including DI, Service Locator, and Factory patterns. DI is a specific mechanism that implements IoC.
 
+DAO vs Repository
+Differences
+Scope: DAOs are typically used for low-level data access operations, while Repositories are used for higher-level data abstraction and retrieval.
+Abstraction level: DAOs provide a lower-level abstraction, while Repositories provide a higher-level abstraction.
+Technology dependence: DAOs are often tied to a specific data storage technology, while Repositories are designed to be technology-agnostic.
+
+Similarities:
+Decoupling: Decoupling the business logic from the data storage makes it easier to change or replace the data storage technology.
+Abstraction: Providing a layer of abstraction makes it easier to change or replace the data storage technology without affecting the business logic.
+Reusability: DAOs and Repositories can be reused across different applications and domains.
 
 
   
