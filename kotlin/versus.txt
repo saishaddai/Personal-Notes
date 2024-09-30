@@ -17,4 +17,6 @@ Abstraction: Providing a layer of abstraction makes it easier to change or repla
 Reusability: DAOs and Repositories can be reused across different applications and domains.
 
 
-  
+Future vs Promises
+Future is a read-only container that holds a value, whereas Promise is a writeable container that can be used to produce a value.
+Future is used to retrieve the result of an asynchronous operation, whereas Promise is used to create a Future that can be completed by calling complete or completeExceptionally methods.
