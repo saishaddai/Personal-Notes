@@ -4,8 +4,10 @@ Kotlin Notes
 Basic Types: Numbers, Unsigned Numbers, Booleans, Strings, Characters, Arrays
 Numbers: Byte, Short, Int, Long, Float, Double
 Unsigned: UByte, UShort, UInt, ULong (No UFloat nor UDouble)
-Classes:
+Classes: is a blueprint for creating objects that contain data and functions that operate on that data. Classes are the fundamental building blocks of object-oriented programming (OOP) in Kotlin.
 Constructors: Primary and Secondary
+Primary Constructor: The primary constructor is the main constructor of the class, and it's used to initialize the class properties. The primary constructor is defined using the constructor keyword.
+Secondary Constructor: In addition to the primary constructor, a class can have secondary constructors, which are used to provide alternative ways to initialize the class. Secondary constructors are defined using the constructor keyword.
 init blocks: a special block of code that is executed when an object is created. It is used to initialize the properties of a class and perform any necessary setup. Used for Initialization, Validation, Setup, Logging
 Open Classes:
 Interfaces:
@@ -16,7 +18,7 @@ Java static final variables vs Kotlin companion objects
 SAM Conversions:
 Visibility modifiers: public, private, internal, protected
 Class Members: public, private, internal, protected
-Extensions:
+Extensions: is a function that adds functionality to an existing class without modifying the class itself. It's a way to extend the functionality of a class without inheriting from it or modifying its source code
 Data Classes:
 Sealed Classes:
 Sealed Inerfaces:
