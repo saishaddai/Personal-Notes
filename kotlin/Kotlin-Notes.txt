@@ -24,11 +24,11 @@ SAM Conversions:
 Visibility modifiers: public, private, internal, protected
 Class Members: public, private, internal, protected
 Extensions: is a function that adds functionality to an existing class without modifying the class itself. It's a way to extend the functionality of a class without inheriting from it or modifying its source code
-Data Classes:
-Sealed Classes:
-Sealed Inerfaces:
-Nested Clases:
-Inner Classes:
+Data Classes: is a special type of class that is used to hold data. It is a concise way to create classes that contain only immutable data and require little to no boilerplate code. It is immutable, concise and data-only
+Sealed Classes: a sealed class is a type of class that can be inherited by a fixed set of subclasses. It is used to represent a closed set of alternatives, where the subclasses are known in advance.
+Sealed Interfaces:  a sealed interface is a type of interface that can be implemented by a fixed set of classes. It is used to represent a closed set of alternatives, where the implementing classes are known in advance.
+Diff Sealed classes and sealed interfaces:Use sealed classes when you need to represent a closed set of alternatives with state. Use sealed interfaces when you need to represent a closed set of alternatives without state. 
+Nested Clases: In Kotlin, a nested class is a class that is defined inside another class. Nested classes are also known as inner classes.
 Enums and annonimous classes:
 Inline Value Classes: @JvmInLine
 Delegation: Overriding and use of 'by'
