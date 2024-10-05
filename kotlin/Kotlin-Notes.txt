@@ -29,7 +29,23 @@ Sealed Classes: a sealed class is a type of class that can be inherited by a fix
 Sealed Interfaces:  a sealed interface is a type of interface that can be implemented by a fixed set of classes. It is used to represent a closed set of alternatives, where the implementing classes are known in advance.
 Diff Sealed classes and sealed interfaces:Use sealed classes when you need to represent a closed set of alternatives with state. Use sealed interfaces when you need to represent a closed set of alternatives without state. 
 Nested Clases: In Kotlin, a nested class is a class that is defined inside another class. Nested classes are also known as inner classes.
-Enums and annonimous classes:
-Inline Value Classes: @JvmInLine
-Delegation: Overriding and use of 'by'
+Enums: In Kotlin, an enum (short for enumeration) is a special type of class that represents a fixed set of constants. Enums are used to define a set of named values that have underlying types, such as integers or strings.
+Enums vs Seales Classes:
+- Extensibility: Enums are not extensible, while sealed classes can be extended by subclasses.
+- Type Safety: Enums are type-safe, while sealed classes are also type-safe, but with more flexibility.
+- Underlying Type: Enums have an underlying type, such as an integer or a string, while sealed classes do not have an underlying type.
+- Named Values: Enums have named values, while sealed classes have named subclasses.
+- Use Cases: Enums are useful when you need to define a set of constants, while sealed classes are useful when you need to define a closed set of alternatives that can be extended by subclasses.
+Annonimous classes: Extensibility: Enums are not extensible, while sealed classes can be extended by subclasses.
+Type Safety: Enums are type-safe, while sealed classes are also type-safe, but with more flexibility.
+Underlying Type: Enums have an underlying type, such as an integer or a string, while sealed classes do not have an underlying type.
+Named Values: Enums have named values, while sealed classes have named subclasses.
+Use Cases: Enums are useful when you need to define a set of constants, while sealed classes are useful when you need to define a closed set of alternatives that can be extended by subclasses. 
+Inline Value Classes: @JvmInLine an inline value class is a special type of class that is used to wrap a value of a certain type. Inline value classes are used to create a new type that is based on an existing type, but with additional functionality or constraints.
+Delegation: Overriding and use of 'by': Delegation is a design pattern that allows an object to delegate some of its responsibilities to another object. In Kotlin, delegation is implemented using the by keyword.
+You should use by when you need to delegate the implementation of an interface or a class to another object. This is commonly used in situations such as:
+- Implementing interfaces: You can use by to delegate the implementation of an interface to an object that already implements that interface.
+- Extending classes: You can use by to delegate the implementation of a subclass to an object of the superclass.
+- Reducing code duplication: You can use by to avoid duplicating code by delegating the implementation of an interface or a class to another object.
+
 Currying in Kotlin: Currying is a technique in functional programming that allows you to transform a function with multiple arguments into a sequence of functions, each with a single argument. This process enables you to break down a complex function into smaller, simpler functions that can be composed together.
