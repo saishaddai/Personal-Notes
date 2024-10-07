@@ -20,7 +20,18 @@ Java abstract classes VS Kotlin Open Classes
 companion objects: a companion object is an object that is defined inside a class and is used to provide a way to access a set of related functions and properties. Companion objects are similar to static members in other languages, but they are more powerful and flexible
 named companion objects: In Kotlin, you can define a named companion object inside a class to provide a way to access a set of related functions and properties.
 Java static final variables vs Kotlin companion objects
-SAM Conversions:
+SAM Conversions: SAM (Single Abstract Method) conventions are a set of rules that allow you to use functional interfaces (interfaces with a single abstract method) as functional types. This means you can use lambda expressions, function references, or method references to implement functional interfaces.
+Functional Interfaces: A functional interface is an interface that has only one abstract method. This method is called the "single abstract method" (SAM). Functional interfaces are often used as targets for lambda expressions or method references.
+Rules of SAM Conventions:
+The interface must have only one abstract method: The interface must have only one abstract method, which is the SAM.
+The interface must be annotated with @FunctionalInterface: The interface must be annotated with @FunctionalInterface to indicate that it's a functional interface.
+The SAM method must be the only abstract method: The SAM method must be the only abstract method in the interface.
+Usages of SAM Conventions: SAM conventions are commonly used in various scenarios, such as:
+
+Event handling: Functional interfaces are often used as event handlers, where a single method is called in response to an event.
+Callback functions: Functional interfaces are used as callback functions, where a single method is called when a specific condition is met.
+Data processing: Functional interfaces are used to process data, where a single method is called to transform or manipulate the data.
+
 Visibility modifiers: public, private, internal, protected
 Class Members: public, private, internal, protected
 Extensions: is a function that adds functionality to an existing class without modifying the class itself. It's a way to extend the functionality of a class without inheriting from it or modifying its source code
