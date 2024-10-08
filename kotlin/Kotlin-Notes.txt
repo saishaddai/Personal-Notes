@@ -59,4 +59,9 @@ You should use by when you need to delegate the implementation of an interface o
 - Extending classes: You can use by to delegate the implementation of a subclass to an object of the superclass.
 - Reducing code duplication: You can use by to avoid duplicating code by delegating the implementation of an interface or a class to another object.
 
+Lambda functions: a lambda function is a small, anonymous function that can be defined inline within a larger expression. Lambda functions are often used to implement functional interfaces, such as event handlers or callback functions.
+
+
+
+
 Currying in Kotlin: Currying is a technique in functional programming that allows you to transform a function with multiple arguments into a sequence of functions, each with a single argument. This process enables you to break down a complex function into smaller, simpler functions that can be composed together.
