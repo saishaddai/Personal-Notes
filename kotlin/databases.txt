@@ -39,3 +39,13 @@ SQL: Understanding how to write SQL queries to interact with a database.
 Database Programming: Learning how to use programming languages, such as Java, Python, or C#, to interact with a database.
 ORMs: Studying how to use Object-Relational Mappers (ORMs) to interact with a database.
 Database APIs: Understanding how to use database APIs to interact with a database.
+
+
+H2 Database: H2 Database is an embedded, open-source, and in-memory database. It is a relational database management system written in Java. It is a client/server application that stores data in memory, not persisting the data on disk.
+
+H2 Database is suitable for the following cases:
+
+Development and testing: H2 Database is a great choice for development and testing purposes due to its lightweight nature and ease of use.
+In-memory database: H2 Database can be used as an in-memory database, which is useful for applications that require fast data access and do not need to persist data on disk.
+Embedded database: H2 Database can be used as an embedded database, which is useful for applications that require a small, self-contained database.
+POC (Proof of Concepts): H2 Database is a good choice for POCs due to its ease of use and fast setup.
