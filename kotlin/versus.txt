@@ -56,3 +56,40 @@ To achieve good design, it's essential to strive for:
 
 Low Coupling: Minimize dependencies between modules to make them more independent and easier to maintain.
 High Cohesion: Ensure that elements within a module work together to achieve a single, well-defined goal, making the module more focused and easier to understand.
+
+H2 vs SQLite
+H2 Database:
+
+Advantages:
+Faster than SQLite
+Supports more advanced features like stored procedures and triggers
+Supports clustering and replication
+Supports encryption
+Disadvantages:
+More complex to set up and configure
+Requires more memory and resources
+Not as widely supported as SQLite
+SQLite:
+
+Advantages:
+Very lightweight and easy to set up
+Widely supported and used in many applications
+Self-contained and doesn't require a separate server process
+Supports transactions and locking
+Disadvantages:
+Slower than H2
+Limited support for advanced features like stored procedures and triggers
+Not suitable for large-scale or high-traffic applications
+Use Cases:
+
+H2 Database:
+Suitable for large-scale or high-traffic applications
+Suitable for applications that require advanced features like stored procedures and triggers
+Suitable for applications that require encryption
+SQLite:
+Suitable for small to medium-sized applications
+Suitable for applications that require a lightweight and easy-to-set-up database
+Suitable for applications that require a self-contained database
+Conclusion:
+
+H2 Database and SQLite are both suitable for different use cases. H2 Database is more suitable for large-scale or high-traffic applications that require advanced features, while SQLite is more suitable for small to medium-sized applications that require a lightweight and easy-to-set-up database.
