@@ -93,3 +93,19 @@ Suitable for applications that require a self-contained database
 Conclusion:
 
 H2 Database and SQLite are both suitable for different use cases. H2 Database is more suitable for large-scale or high-traffic applications that require advanced features, while SQLite is more suitable for small to medium-sized applications that require a lightweight and easy-to-set-up database.
+
+
+SQL vs No-SQL
+When to Use SQL Databases:
+
+When data is structured and well-defined.
+When data relationships are complex.
+When data consistency and reliability are critical.
+When SQL queries are necessary.
+
+When to Use NoSQL Databases:
+
+When data is unstructured or semi-structured.
+When data is large and complex.
+When scalability and high performance are necessary.
+When flexible schema is required.
