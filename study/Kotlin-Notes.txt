@@ -61,7 +61,9 @@ You should use by when you need to delegate the implementation of an interface o
 
 Lambda functions: a lambda function is a small, anonymous function that can be defined inline within a larger expression. Lambda functions are often used to implement functional interfaces, such as event handlers or callback functions.
 
+Transient: In Kotlin, there is no direct equivalent to Java's transient keyword. However, you can achieve similar behavior using other mechanisms. In Java, transient is used to indicate that a field should not be serialized. In Kotlin, you can use the @Transient annotation from the kotlinx.serialization library to achieve the same effect. Alternatively, you can use the lateinit keyword to declare a property that will not be serialized. This approach is useful when you need to initialize the property later in the code.
 
+Volatile: In Java, volatile is used to ensure that changes to a variable are immediately visible to other threads. In Kotlin, you can use the @Volatile annotation from the kotlinx.atomicfu library to achieve the same effect.
 
 
 Currying in Kotlin: Currying is a technique in functional programming that allows you to transform a function with multiple arguments into a sequence of functions, each with a single argument. This process enables you to break down a complex function into smaller, simpler functions that can be composed together.
