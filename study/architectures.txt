@@ -1,0 +1,79 @@
+Model View Presenter
+
+The Model-View-Presenter (MVP) architecture is a design pattern commonly used in software development, particularly in the context of building user interfaces. It separates the application into three interconnected components, which enhances modularity and testability. Here’s a breakdown of each component:
+
+Components of MVP
+
+Model:
+Represents the data and business logic of the application.
+Responsible for retrieving, storing, and processing data.
+Notifies the Presenter of any data changes.
+
+View:
+Represents the user interface (UI) elements.
+Displays data to the user and sends user interactions (like clicks and inputs) to the Presenter.
+Should be passive, meaning it does not contain business logic.
+
+Presenter:
+Acts as an intermediary between the Model and the View.
+Retrieves data from the Model and formats it for display in the View.
+Handles user input from the View and updates the Model accordingly.
+
+
+
+Model-View-Controller
+The Model-View-Controller (MVC) architecture is a widely used design pattern in software development, particularly for building user interfaces. It organizes an application into three interconnected components, promoting separation of concerns and enhancing maintainability. Here’s a detailed breakdown of each component:
+
+Components of MVC
+Model:
+
+Represents the application's data and business logic.
+Responsible for managing the data, including retrieval, storage, and updates.
+Notifies the View of any data changes to ensure the UI is updated accordingly.
+View:
+
+Represents the user interface elements that display data to the user.
+Receives user input and sends it to the Controller for processing.
+Should be passive, meaning it does not handle business logic or data processing.
+Controller:
+
+Acts as an intermediary between the Model and the View.
+Receives user input from the View, processes it (often involving changes to the Model), and updates the View accordingly.
+Coordinates the flow of data and updates between the Model and View.
+
+
+
+Differences between MNP and MVC
+
+Component Roles:
+
+MVP:
+The Presenter handles the presentation logic and interacts directly with both the Model and the View.
+The View is passive, meaning it does not contain any logic and relies on the Presenter for all interactions and updates.
+MVC:
+The Controller handles user input and updates the Model but does not directly interact with the View.
+The View is more active and can update itself based on changes in the Model, often directly without needing the Controller’s intervention.
+Data Flow:
+
+MVP:
+The flow is more tightly coupled. The View communicates user actions to the Presenter, which then updates the Model and notifies the View to refresh.
+MVC:
+The flow is more loosely coupled. The View sends user input to the Controller, which updates the Model. The Model then notifies the View to update itself.
+Testing:
+
+MVP:
+Easier to test because the Presenter can be tested independently of the View and Model, as it contains the logic for the UI.
+MVC:
+Testing can be more complex since the Controller may contain logic that interacts with both the Model and View, making it less modular.
+Use Cases:
+
+MVP:
+Often used in applications where the View is more complex, such as desktop applications or rich client applications.
+MVC:
+Commonly used in web applications, especially those where the View needs to be updated frequently based on user interactions.
+
+MVP is characterized by a more active Presenter that manages the View and Model interactions, leading to a more modular and testable approach.
+MVC allows for a more dynamic interaction between the View and Model, with the Controller acting as a mediator but not directly managing the View.
+
+
+
