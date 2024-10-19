@@ -99,3 +99,28 @@ Unit Testing: Smaller try blocks can facilitate better unit testing, as you can 
 
 
 
+Hexagonal (ports and adapters)
+Core Application Logic:
+
+The central part of the application, often referred to as the "domain" or "business logic."
+It contains the rules and behaviors of the application, independent of any external systems.
+Ports:
+
+Interfaces that define how the core application interacts with the outside world.
+There are two types of ports:
+Inbound Ports: Define how external actors (like users or other systems) can interact with the application. They represent the application's use cases.
+Outbound Ports: Define how the application communicates with external systems (like databases, message queues, or third-party services).
+Adapters:
+
+Implementations of the ports that connect the core application to external systems.
+Adapters can be:
+Inbound Adapters: Convert external requests (e.g., HTTP requests) into calls to the inbound ports.
+Outbound Adapters: Convert calls from the core application to the format required by external systems (e.g., database queries).
+Benefits
+Separation of Concerns: The architecture clearly separates the core logic from external dependencies, making it easier to manage and evolve each part independently.
+Testability: The core application can be tested in isolation by mocking the ports, allowing for unit tests without needing to interact with external systems.
+Flexibility: Changes to external systems (like switching databases or APIs) can be made with minimal impact on the core application logic, as only the adapters need to be modified.
+Maintainability: The clear structure helps in understanding the application flow and makes it easier to maintain and extend the application.
+
+
+
