@@ -67,3 +67,15 @@ Volatile: In Java, volatile is used to ensure that changes to a variable are imm
 
 
 Currying in Kotlin: Currying is a technique in functional programming that allows you to transform a function with multiple arguments into a sequence of functions, each with a single argument. This process enables you to break down a complex function into smaller, simpler functions that can be composed together.
+
+Class Modifiers in Kotlin
+Public: This is the default visibility modifier. Members marked as public are visible everywhere
+Private: Members marked as private are visible only within the class or file where they are declared.
+Protected: Members marked as protected are visible within the class and its subclasses. Note that protected cannot be applied to top-level declarations
+Internal: Members marked as internal are visible within the same module. A module is a set of Kotlin files compiled together (e.g., a Maven or Gradle project).
+Open: By default, classes in Kotlin are final, meaning they cannot be subclassed. To allow a class to be subclassed, you must mark it with the open modifier.
+Abstract: An abstract class cannot be instantiated and may contain abstract methods (methods without a body) that must be implemented by subclasses.
+Data: A data class is a special type of class that is primarily used to hold data. It automatically provides equals(), hashCode(), and toString() methods, as well as copy() and component functions.
+Sealed: A sealed class restricts class hierarchies to a limited set of subclasses. All subclasses must be declared within the same file as the sealed class.
+Inner: An inner class is a non-static nested class that has access to the members of its outer class.
+
