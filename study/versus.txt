@@ -118,3 +118,10 @@ Purpose: volatile variables ensure that changes to a variable are immediately vi
 Scope: volatile variables are used for individual variables, while Atomic objects are used for a class of variables that require thread-safe operations.
 Performance: volatile variables can have a performance impact, as they require the JVM to always read the variable from main memory. Atomic objects, on the other hand, use lock-free algorithms to provide thread-safe operations, which can be more efficient.
 Use cases: volatile variables are typically used for simple variables that require immediate visibility, while Atomic objects are used for more complex variables that require thread-safe operations, such as counters or flags.
+
+
+Sequences vs collections
+Collections: Collections are data structures that hold a group of elements. They are eager in nature, meaning that operations on collections are executed immediately, and the entire collection is processed at once. Common collection types in Kotlin include List, Set, and Map.
+Sequences: Sequences are a way to represent a potentially infinite series of elements and are processed lazily. This means that elements are computed only when they are needed, allowing for more efficient processing, especially with large datasets.
+The main difference is eager (collections) vs lazy (sequences)
+
