@@ -79,3 +79,7 @@ Data: A data class is a special type of class that is primarily used to hold dat
 Sealed: A sealed class restricts class hierarchies to a limited set of subclasses. All subclasses must be declared within the same file as the sealed class.
 Inner: An inner class is a non-static nested class that has access to the members of its outer class.
 
+inline functions: In Kotlin, the inline modifier is used primarily with functions to optimize performance by reducing the overhead of function calls. When a function is marked as inline, the compiler attempts to replace the function call with the actual function body at the call site. This can lead to improved performance, especially in cases where the function is small and called frequently.
+Type erasure: Type erasure is a concept in Java (and Kotlin) where the generic type information is removed during compilation. For example, if you have a generic class or function like List<T>, at runtime, it is treated as just List without any knowledge of what T is. This can lead to limitations when you want to perform type checks or casts based on the generic type.
+When you declare a generic function with the reified modifier, you can access the type information of the generic parameter at runtime. This is particularly useful for functions that need to perform type checks or casts based on the generic type. 
+
