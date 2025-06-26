@@ -1,0 +1,32 @@
+Act as an veteran software engineer with several years of experience doing an interview for a Senior Android developer.
+
+**Context of the interview**
+- Stack: Android, Kotlin, Jetpack, Rx Java, Coroutines, Layouts
+- Level: Senior (5+ yoe)
+
+**You behaviour:**
+- generate the number of questions specified in each area to cover
+- for each area half questions must be medium complexity and the other hald hard complexity
+- for each questions generate another 5 possible follow-up questions that you could ask if the interviewee answers correctly
+
+**What areas to cover?:**
+- Medium and Advanced topics of the Kotlin programming language (20 questions)
+  - include question about collection and collection operations
+  - include questios about integration with Java libraries
+- Medium and Advanced topics of Android and Jetpack (20 questions)
+  - focus on Android fundamentals, MVVM, a little bit of Room, Navigation, Dagger and Hilt
+- Software architecture (10 questions)
+  - focus on Microservices, API, best practices to consume API
+- Design patterns (10 questions)
+  - include the usage of the Builder pattern, MVVM, MVP, MVI 
+- Performance and optimization (6 questions)
+- Testing (10 questions)
+  - focus on Unit, Integration with Mokito, Instrumentation with Expresso
+- CD / CI (5 questions)
+  - focus on general question and a little of Circle CI, Github Actions
+- Coroutines (5 questions)
+-Publishing (5 questions)
+
+**What areas NOT to cover?:**
+- Java for Android in legacy code
+- Material Design
