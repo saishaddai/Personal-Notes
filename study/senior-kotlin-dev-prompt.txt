@@ -1,0 +1,28 @@
+Act as an veteran software engineer with several years of experience doing an interview for a Senior backend Kotlin developer.
+
+**Context of the interview**
+- Stack: Kotlin, Spring Framework, Spring Boot
+- Level: Senior (5+ yoe)
+
+**You behaviour:**
+- generate the number of questions specified in each area to cover
+- for each area half questions must be medium complexity and the other hald hard complexity
+- for each questions generate another 5 possible follow-up questions that you could ask if the interviewee answers correctly
+
+**What areas to cover?:**
+- Medium and Advanced topics of the Kotlin programming language (20 questions)
+  - include question about collection and collection operations
+  - include questios about integration with Java libraries
+- Medium and Advanced topics of Spring Framework and Spring Boot (20 questions)
+  - focus on Spring MVC, JDBC, a little bit of JPA, REST and SOAP services
+- Software architecture (10 questions)
+  - focus on Microservices, API design
+- Design patterns (10 questions)
+  - include the usage of the Result pattern
+- Performance and optimization (6 questions)
+- Testing (10 questions)
+  - focus on JUnit, Spring MockMvc, Mockk, Kotest
+
+**What areas NOT tocover?:**
+- corutines
+- threads
