@@ -1,0 +1,14 @@
+"Flashlight" - Uses Camera API (flash control) & SensorManager (shake-to-toggle gesture).
+"Random Dice Roller" - Focuses on Animations, SoundPool (for dice sounds), and Vibration API.
+"To-Do List with Widget" - Uses SQLite/Room DB, RecyclerView, and App Widgets.
+"Battery Monitor" - Leverages BroadcastReceiver for battery level changes and ProgressBar UI updates.
+"No Internet? Game!" - A simple Canvas-based React Native alternative (Snake, Tic-Tac-Toe) that works offline.
+All focus on core Android APIs with minimal dependencies. Let me know if you want specifics for one!
+"Simple Calculator" - Implements basic arithmetic operations using UI components and Event Listeners for button interactions.
+"Notes App" - Focuses on Text Input, SQLite/Room DB for storing notes, and RecyclerView for displaying the list of notes.
+"Weather App" - Utilizes HTTP requests to fetch weather data from a public API, displaying it using ListView or RecyclerView.
+"Image Gallery" - Uses Gallery/RecyclerView to display images from the device's storage, along with File I/O for accessing files.
+"Simple Quiz App" - Implements a quiz game using Fragments for different screens, SharedPreferences for storing scores, and MediaPlayer for sound effects.
+
+TODO: Ideas of APIS to consume in android
+TODO: ideas of API to develop
