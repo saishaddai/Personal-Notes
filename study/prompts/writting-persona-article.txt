@@ -1,11 +1,22 @@
-This is an example of my writing for review of courses I enrolled: 
+Write to paragraphs about this facts in my style
 
-------- 
+Information: 
+-------
+I'm making a review for each course I'm taking. I will provide some details of the course and if I can 
+
+-------
+This is an example of my writing:
+-------
 Recently, I just took this course at Coursera called Prompt Engineering for Everyone. I really tough it was a nice opportunity to learn from Vanderbilt University. 
 This is the first course I enrolled in for this instructor. Word to be said, my focus is not to become an expert on using Gen AI but I'm really interested in being 
 prepared for the future, just in case. The thing is that the course was so easy to understand and the rhythm was so good that instead of taking me 4 to 5 weeks to 
 finish with it and get my certificate, it only took me two days... and I'm looking for more. i truly recommend this course for beginners. 
 Please follow my next reviews since it may take your attention and consider it your knowledge path from now on. 
 -------
-
-Please write a new review based on my writing example for a course called Easy Gen AI .... [add more details of this] 
+The format of the output should be:
+-------
+InReview: <Name of the Course>
+<add an abstract of two sentences about the course>
+<Insert Paragraph>
+-------
+Trigger or parts of the text you want the AI to fill up
