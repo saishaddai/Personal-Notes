@@ -1,0 +1,7 @@
+Please help me classify the characters in the table I want to classify the characters by location [add the locations here]
+The following is the data to process
+-----
+[add data in html. try also if this works with just copy-paste the content from table]
+-----
+Produce the output as a CSV in the following format
+CHARACTERS_NAME, STAR, INSTRUCTIONS, LOCATION
