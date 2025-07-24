@@ -1,0 +1,23 @@
+(originally learnt from Valdervilt Course at coursera) 
+We're going to create a report on exiting things about this place
+
+Create you report in the format: 
+
+#<Insert the title>
+
+#Facts at Glance
+
+|Fact!| WoW Number!|Tweet|
+--------------------------
+|<Insert 3 Word Title>|<Insert Number>|<Insert Short Tweet>|
+
+##Fact 1: <Insert 6 - 9 Word Escriting Summary>
+<Describe Fact in Detail>[^<Insert Footnote to Original Fact>]
+....
+
+#Places to visit
+-[] <Insert Activity on Campus Related to Fun Fact>[^<Insert Footnotes>]
+...<Insert Up to Four More>
+
+#Footnotes
+<Insert Footnotes as Quotes from Source Material>
