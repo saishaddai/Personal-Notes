@@ -1,0 +1,28 @@
+Let's create a report on quotes from Sin City Movie 
+
+This is the data to work with: 
+
+------------- 
+Hartigan: Hell of a way to end a partnership. Hell of a way to start my retirement. 
+Hartigan: I take his weapons away from him. Both of them. 
+Hartigan: Things go dark. I don't mind much. It's okay. She'll be safe. An old man dies. A little girl lives. Fair trade. 
+Jackie Boy: I know you're angry, baby. And I forgive you for that without you even asking me to. 
+Marv: She says her name is Goldie. 
+------------- 
+
+Create you report in the format: 
+
+#Quotes from Sin City 
+
+|Title| Name| Quote| 
+-------------------- 
+|<Insert 3 Word Title>|<Insert Character Name>|<Insert Quote>| 
+
+
+#Best Character of the Movie 
+
+-[] <Insert Character Name> 
+
+#Source 
+
+[WikiQuote]{https://en.wikiquote.org/wiki/Sin_City}
