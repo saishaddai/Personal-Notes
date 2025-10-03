@@ -1,0 +1,382 @@
+{
+  "characters": [
+    {
+      "war": "Gate Rune",
+      "number": 1,
+      "name": "Tir McDohl",
+      "star": "Tenkai",
+      "notes": "Joins automatically at the beginning of the story."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 2,
+      "name": "Cleo",
+      "star": "Tenman",
+      "notes": "Joins automatically before receiving your first mission from Kraze."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 3,
+      "name": "Gremio",
+      "star": "Tenei",
+      "notes": "Joins automatically before receiving your first mission from Kraze."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 4,
+      "name": "Ted",
+      "star": "N/A",
+      "notes": "Joins automatically before receiving your first mission from Kraze."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 5,
+      "name": "Viktor",
+      "star": "Tenko",
+      "notes": "Joins automatically before escaping Gregminster."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 6,
+      "name": "Odessa Silverberg",
+      "star": "N/A",
+      "notes": "Joins automatically on your mission to Sarady."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 7,
+      "name": "Mathiu Silverberg",
+      "star": "Tenki",
+      "notes": "Joins automatically after Tir agrees to become leader of the resistance."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 8,
+      "name": "Camille",
+      "star": "Tenyu",
+      "notes": "Joins automatically after meeting Tai Ho."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 9,
+      "name": "Tai Ho",
+      "star": "Tenhei",
+      "notes": "Joins automatically at the Toran Lake Fortress."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 10,
+      "name": "Luc",
+      "star": "Tenkai",
+      "notes": "Joins automatically after taking the Toran Lake Fortress."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 11,
+      "name": "Yam Koo",
+      "star": "Tenson",
+      "notes": "Joins automatically after taking the Toran Lake Fortress."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 12,
+      "name": "Chandler",
+      "star": "Chikou",
+      "notes": "Speak to him at the Fortress of Kwaba after taking the Toran Lake Fortress."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 13,
+      "name": "Kai",
+      "star": "Chihi",
+      "notes": "Speak to him at the Garan Fortress after taking the Toran Lake Fortress."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 14,
+      "name": "Lorelai",
+      "star": "Chikatsu",
+      "notes": "Speak to her in the Inn at Kouan after taking the Toran Lake Fortress. Tir must be at least lv. 25."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 15,
+      "name": "Maas",
+      "star": "Chibaku",
+      "notes": "Speak to him in the blacksmith at Great Forest Village after taking the Toran Lake Fortress."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 16,
+      "name": "Marie",
+      "star": "Chiin",
+      "notes": "Speak to her in the Inn at Seika after taking the Toran Lake Fortress."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 17,
+      "name": "Onil",
+      "star": "Chizen",
+      "notes": "Speak to her in her house at Seika after taking the Toran Lake Fortress."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 18,
+      "name": "Sansuke",
+      "star": "Chiretsu",
+      "notes": "Speak to him in his house at Great Forest Village after taking the Toran Lake Fortress."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 19,
+      "name": "Sergei",
+      "star": "Chisou",
+      "notes": "Speak to him in the Tavern at Kaku after taking the Toran Lake Fortress."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 20,
+      "name": "Antonio",
+      "star": "Chisyu",
+      "notes": "Speak to him in the Inn at Seika anytime after recruitng Marie. Marie must have mentioned needing help with cooking. Repeatedly talk to her at the Inn at HQ until she does (you just talk to her a few times while choosing Don't Stay)."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 21,
+      "name": "Rock",
+      "star": "Chison",
+      "notes": "Speak to him in the Vault in Lepant's mansion. Allow him to join."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 22,
+      "name": "Juppo",
+      "star": "Chisyun",
+      "notes": "Joins you automatically whether or not you speak with him."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 23,
+      "name": "Meg",
+      "star": "Chikei",
+      "notes": "Speak to her outside the Inn at Kaku with Juppo in your active party."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 24,
+      "name": "Eileen",
+      "star": "Tenkou",
+      "notes": "Joins automatically after saving her from Kraze."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 25,
+      "name": "Giovanni",
+      "star": "Chiyou",
+      "notes": "Joins automatically after saving Eileen from Kraze."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 26,
+      "name": "Krin",
+      "star": "Chizoku",
+      "notes": "Joins automatically after saving Eileen from Kraze."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 27,
+      "name": "Lepant",
+      "star": "Tengou",
+      "notes": "Joins automatically after saving Eileen from Kraze."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 28,
+      "name": "Pahn",
+      "star": "Tentai",
+      "notes": "Speak to him in Kraze's Mansion after saving Eileen. Spoiler: After conquering Scarleticia Castle, Pahn needs to survive an important duel. If he is around level 30, has a level 10+ weapon, and is equipped with the best armor available, he can easily win. If he doesn't, he dies."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 29,
+      "name": "Gaspar",
+      "star": "Chisyu",
+      "notes": "Speak to him in the tavern at Kaku with a level 2 castle. Win 5000 bits from him."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 30,
+      "name": "Sydonia",
+      "star": "Tenkoku",
+      "notes": "Joins automatically after saving Eileen from Kraze."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 31,
+      "name": "Varkas",
+      "star": "Tenbou",
+      "notes": "Joins automatically after saving Eileen from Kraze."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 32,
+      "name": "Kirkis",
+      "star": "Tenbi",
+      "notes": "Joins automatically after agreeing to help him fight Kwanda Rossman's army."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 33,
+      "name": "	Sheena",
+      "star": "Chimei",
+      "notes": "Speak to him in the Inn at Seika with Lepant in your active party. Castle Level 2"
+    },
+    {
+      "war": "Gate Rune",
+      "number": 34,
+      "name": "Viki",
+      "star": "Chitatsu",
+      "notes": "Allow her to join the army when you meet her in the Great Forest."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 35,
+      "name": "Meese",
+      "star": "Chihi",
+      "notes": "Speak to him in the blacksmith at the Village of the Dwarves. Maas must be recruited."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 36,
+      "name": "Valeria",
+      "star": "Tensyo",
+      "notes": "Joins automatically before going to the Village of the Dwarves."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 37,
+      "name": "Templeton",
+      "star": "Chimou",
+      "notes": "Speak to him at the Village of the Elves after it is destroyed."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 38,
+      "name": "Kuromimi",
+      "star": "Chitan",
+      "notes": "Joins automatically before the major battle with Kwanda Rossman."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 39,
+      "name": "Sanchez",
+      "star": "N/A",
+      "notes": "Joins automatically before the major battle with Kwanda Rossman."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 40,
+      "name": "Humphrey Mintz",
+      "star": "Tenyu",
+      "notes": "Joins automatically before the major battle with Kwanda Rossman."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 41,
+      "name": "Kwanda Rosman",
+      "star": "Tenmou",
+      "notes": "After defeating him, mention that there is something wrong with him. Choose to recruit him. Note: Do not agree to execute him at any time."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 42,
+      "name": "Stallion",
+      "star": "Tensoku",
+      "notes": "Joins automatically after defeating Kwanda Rosman."
+    },
+{
+      "war": "Gate Rune",
+      "number": 43,
+      "name": "Sylvina",
+      "star": "Chisatsu",
+      "notes": "Joins automatically after defeating Kwanda Rosman."
+    },
+{
+      "war": "Gate Rune",
+      "number": 44,
+      "name": "Fu Su Lu",
+      "star": "Tensatsu",
+      "notes": "Speak to him in the Inn at the Kobold Village. Pay 10,000 bits for the food he has eaten."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 45,
+      "name": "Gon",
+      "star": "Chikaku",
+      "notes": "Speak to him in his house at Kobold Village with Kuromimi in the active party."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 46,
+      "name": "Rubi",
+      "star": "Chisoku",
+      "notes": "Speak to him in the Inn at Kobold Village with Kirkis in your party. Kirkis must be at least Level 35."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 47,
+      "name": "Apple",
+      "star": "Chifuku",
+      "notes": "Speak to her in Mathiu's house at Seika after defeating Kwanda Rosman. Tell her that Mathiu wanted to help you. Castle Level 2"
+    },
+    {
+      "war": "Gate Rune",
+      "number": 48,
+      "name": "Flik",
+      "star": "Tenan",
+      "notes": "After he storms out of the HQ, follow him to Kaku. He will agree to join forces with you."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 49,
+      "name": "Chapman",
+      "star": "Chiyu",
+      "notes": "Speak to him in the Armor Shop at Antei. Allow him to join you. He won't ask unless your Castle is at least Level 2."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 50,
+      "name": "Eikei",
+      "star": "Chiyu",
+      "notes": "Speak to him at Teien with Tir at Level 40 or higher and Castle Level 2 or higher."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 51,
+      "name": "Hellion",
+      "star": "Chisyu",
+      "notes": "Speak to her in the Inn/Item Shop at Teien. Allow her to join you. She won't ask unless your Castle is at least Level 2."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 52,
+      "name": "Jabba",
+      "star": "Chisei",
+      "notes": "Speak to him in the Appraisal Shop at Rikon with a Nameless Urn in your inventory."
+    },
+    {
+      "war": "Gate Rune",
+      "number": 53,
+      "name": "Jeane",
+      "star": "Chiketsu",
+      "notes": "Speak to her in the Rune Shop at Antei. Allow her to join you. If your Castle is not large enough she will tell you to get more recruits. Castle Level 3"
+    },
+    {
+      "war": "Gate Rune",
+      "number": 54,
+      "name": "Lotte",
+      "star": "Chiku",
+      "notes": "Speak to her in the Inn at Rikon. Agree to find her cat. Go to Kaku and capture the cat just outside the Inn. Return it to her. She will not ask for your help unless your Castle level is high enough. Castle Level 3"
+    }
+  }
+]
