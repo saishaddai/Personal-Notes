@@ -1,74 +1,47 @@
-{
-  "characters": [
-    {
-      "war": "Gate Rune",
-      "number": 1,
-      "name": "Tir McDohl",
-      "star": "Tenkai",
-      "notes": "Joins automatically at the beginning of the story."
-    },
-    {
-      "war": "Gate Rune",
-      "number": 2,
-      "name": "Cleo",
-      "star": "Tenman",
-      "notes": "Joins automatically before receiving your first mission from Kraze."
-    },
-    {
-      "war": "Gate Rune",
-      "number": 3,
-      "name": "Gremio",
-      "star": "Tenei",
-      "notes": "Joins automatically before receiving your first mission from Kraze."
-    },
-    {
-      "war": "Gate Rune",
-      "number": 4,
-      "name": "Ted",
-      "star": "N/A",
-      "notes": "Joins automatically before receiving your first mission from Kraze."
-    },
-    {
-      "war": "Gate Rune",
-      "number": 5,
-      "name": "Viktor",
-      "star": "Tenko",
-      "notes": "Joins automatically before escaping Gregminster."
-    },
-    {
-      "war": "Gate Rune",
-      "number": 6,
-      "name": "Odessa Silverberg",
-      "star": "N/A",
-      "notes": "Joins automatically on your mission to Sarady."
-    },
-    {
-      "war": "Gate Rune",
-      "number": 7,
-      "name": "Mathiu Silverberg",
-      "star": "Tenki",
-      "notes": "Joins automatically after Tir agrees to become leader of the resistance."
-    },
-    {
-      "war": "Gate Rune",
-      "number": 8,
-      "name": "Camille",
-      "star": "Tenyu",
-      "notes": "Joins automatically after meeting Tai Ho."
-    },
-    {
-      "war": "Gate Rune",
-      "number": 9,
-      "name": "Tai Ho",
-      "star": "Tenhei",
-      "notes": "Joins automatically at the Toran Lake Fortress."
-    },
-    {
-      "war": "Gate Rune",
-      "number": 10,
-      "name": "Luc",
-      "star": "Tenkai",
-      "notes": "Joins automatically after taking the Toran Lake Fortress."
-    }
-  ]
-}
+      "name":"Ted",
+      "star":"N/A",
+      "notes":"Joins automatically before receiving your first mission from Kraze."
+   },
+   {
+      "war":"Gate Rune",
+      "number":5,
+      "name":"Viktor",
+      "star":"Tenko",
+      "notes":"Joins automatically before escaping Gregminster."
+   },
+   {
+      "war":"Gate Rune",
+      "number":6,
+      "name":"Odessa Silverberg",
+      "star":"N/A",
+      "notes":"Joins automatically on your mission to Sarady."
+   },
+   {
+      "war":"Gate Rune",
+      "number":7,
+      "name":"Mathiu Silverberg",
+      "star":"Tenki",
+      "notes":"Joins automatically after Tir agrees to become leader of the resistance."
+   },
+   {
+      "war":"Gate Rune",
+      "number":8,
+      "name":"Camille",
+      "star":"Tenyu",
+      "notes":"Joins automatically after meeting Tai Ho."
+   },
+   {
+      "war":"Gate Rune",
+      "number":9,
+      "name":"Tai Ho",
+      "star":"Tenhei",
+      "notes":"Joins automatically at the Toran Lake Fortress."
+   },
+   {
+      "war":"Gate Rune",
+      "number":10,
+      "name":"Luc",
+      "star":"Tenkai",
+      "notes":"Joins automatically after taking the Toran Lake Fortress."
+   }
+]
