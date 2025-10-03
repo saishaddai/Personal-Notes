@@ -1,3 +1,28 @@
+[
+   {
+      "war":"Gate Rune",
+      "number":1,
+      "name":"Tir McDohl",
+      "star":"Tenkai",
+      "notes":"Joins automatically at the beginning of the story."
+   },
+   {
+      "war":"Gate Rune",
+      "number":2,
+      "name":"Cleo",
+      "star":"Tenman",
+      "notes":"Joins automatically before receiving your first mission from Kraze."
+   },
+   {
+      "war":"Gate Rune",
+      "number":3,
+      "name":"Gremio",
+      "star":"Tenei",
+      "notes":"Joins automatically before receiving your first mission from Kraze."
+   },
+   {
+      "war":"Gate Rune",
+      "number":4,
       "name":"Ted",
       "star":"N/A",
       "notes":"Joins automatically before receiving your first mission from Kraze."
@@ -45,3 +70,4 @@
       "notes":"Joins automatically after taking the Toran Lake Fortress."
    }
 ]
+   
