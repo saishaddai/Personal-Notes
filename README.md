@@ -7,6 +7,9 @@ Scripts I worked on before that may help me start working on a project.
 ## Blogs
 All about my personal blogs
 
+## Blogs
+My study guides
+
 
 ## License 
 ```
