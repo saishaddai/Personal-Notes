@@ -1,3 +1,21 @@
+# Jetpack Compose Guide
+
+## Core Concepts
+- **Composable**: A function that describes UI. `@Composable fun Text(text: String)`.
+- **Composition**: The UI tree built by Compose.
+
+## Modifiers
+- **Modifier**: Chains to customize composables. `Modifier.fillMaxWidth().padding(8.dp)`.
+
+## State Management
+- **State**: Mutable data. `val count = remember { mutableStateOf(0) }`.
+- **Recomposition**: UI update when state changes.
+
+## Layouts
+- **Column**: Vertical layout. `Column { Text("Item 1"); Text("Item 2") }`.
+
+---
+Old Version
 # Jetpack Compose Guide 
 
 **Jetpack Compose** is the new UI Toolkit. It is used for Android and Kotlin Multiplatform when needed. It is declarative
