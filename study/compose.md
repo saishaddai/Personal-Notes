@@ -21,6 +21,7 @@
 ## L
 - **LaunchedEffect**: Launches a coroutine in the composition lifecycle, useful for async operations. Example: `LaunchedEffect(key) { delay(1000); updateData() }`.
 - **LazyColumn**: A composable for efficiently displaying large lists, rendering only visible items. Example: `LazyColumn { items(list) { Text(it) } }`.
+- **LazyVerticalStaggeredGrid**: A composable to show items in a Mansory fashion (like the images in Pinterest). 
 
 ## M
 - **Managing State**: Handling mutable data in Compose using mutableStateOf, remember, and recomposition triggers. Example: `val count = remember { mutableStateOf(0) }; Button(onClick = { count.value++ }) { Text(count.value.toString()) }`.
