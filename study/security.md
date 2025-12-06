@@ -1,0 +1,59 @@
+# Security Fundamentals
+
+## Core
+**Confidentiality**: Protecting sensitive information from unauthorized access.
+**Integrity**: Ensuring data is not modified without authorization.
+**Availability**: Ensuring systems and data are accessible when needed.
+
+## Common Security Threats
+**SQL Injection**: Injecting malicious SQL code to access or modify sensitive data.
+**Cross-Site Scripting (XSS)**: Injecting malicious JavaScript code into websites to steal user data.
+**Cross-Site Request Forgery (CSRF)**: Tricking users into performing unintended actions on a web application.
+**Buffer Overflow**: Overwriting memory to execute malicious code.
+**Denial of Service (DoS) and Distributed Denial of Service (DDoS)**: Overwhelming systems with traffic to make them unavailable.
+
+## Secure Coding Practices 
+**Input Validation**: Verifying user input to prevent malicious data from entering the system.
+**Output Encoding**: Encoding data to prevent XSS attacks.
+**Error Handling**: Handling errors securely to prevent information disclosure.
+**Secure Password Storage**: Storing passwords securely using hashing and salting.
+**Secure Communication**: Using HTTPS to encrypt data in transit.
+
+## Authentication and Authorization
+**Authentication**: Verifying the identity of users or systems.
+**Authorization**: Controlling access to resources based on user identity or role.
+**Session Management**: Managing user sessions securely to prevent unauthorized access.
+
+## Secure Data Storage
+**Encryption**: Protecting data at rest using encryption algorithms.
+**Access Control**: Controlling access to sensitive data based on user identity or role.
+**Data Backup and Recovery**: Ensuring data is backed up and can be recovered in case of a security incident.
+
+## Common Security Frameworks and Tools
+**OWASP**: A non-profit organization providing resources and tools for web application security.
+**SSL/TLS**: A protocol for secure communication over the internet.
+**HTTPS**: A protocol for secure communication over the web.
+**Hashing and Salting**: Techniques for secure password storage.
+
+## Secure Development Lifecycle
+**Secure Requirements**: Incorporating security requirements into the development process.
+**Secure Design**: Designing systems with security in mind.
+**Secure Implementation**: Implementing security measures during development.
+**Secure Testing**: Testing for security vulnerabilities during development.
+**Secure Deployment**: Deploying systems securely to prevent unauthorized access.
+
+## Common Security Certifications
+**CompTIA Security+**: A certification for IT security professionals.
+**CISSP**: A certification for information security professionals.
+**CEH**: A certification for ethical hackers.
+
+## Security Best Practices
+**Keep Software Up-to-Date**: Keeping software up-to-date to prevent exploitation of known vulnerabilities.
+**Use Strong Passwords**: Using strong passwords to prevent unauthorized access.
+**Use Two-Factor Authentication**: Using two-factor authentication to add an extra layer of security.
+**Monitor Systems**: Monitoring systems for security incidents and responding quickly.
+
+## Security Resources
+**OWASP**: A non-profit organization providing resources and tools for web application security.
+**SANS Institute**: A organization providing security training and resources.
+**Cybersecurity and Infrastructure Security Agency (CISA)**: A US government agency providing security resources and guidance.
