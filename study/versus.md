@@ -46,71 +46,80 @@
 - Low Coupling: Minimize dependencies between modules to make them more independent and easier to maintain.
 - High Cohesion: Ensure that elements within a module work together to achieve a single, well-defined goal, making the module more focused and easier to understand.
 
-H2 vs SQLite
-H2 Database:
+---
 
-Advantages:
-Faster than SQLite
-Supports more advanced features like stored procedures and triggers
-Supports clustering and replication
-Supports encryption
-Disadvantages:
-More complex to set up and configure
-Requires more memory and resources
-Not as widely supported as SQLite
-SQLite:
+# H2 vs SQLite
 
-Advantages:
-Very lightweight and easy to set up
-Widely supported and used in many applications
-Self-contained and doesn't require a separate server process
-Supports transactions and locking
-Disadvantages:
-Slower than H2
-Limited support for advanced features like stored procedures and triggers
-Not suitable for large-scale or high-traffic applications
-Use Cases:
+## H2 Database Advantages:
+- Faster than SQLite
+- Supports more advanced features like stored procedures and triggers
+- Supports clustering and replication
+- Supports encryption
+  
+## Disadvantages:
+- More complex to set up and configure
+- Requires more memory and resources
+- Not as widely supported as SQLite
 
-H2 Database:
-Suitable for large-scale or high-traffic applications
-Suitable for applications that require advanced features like stored procedures and triggers
-Suitable for applications that require encryption
-SQLite:
-Suitable for small to medium-sized applications
-Suitable for applications that require a lightweight and easy-to-set-up database
-Suitable for applications that require a self-contained database
-Conclusion:
+## SQLite Advantages:
+- Very lightweight and easy to set up
+- Widely supported and used in many applications
+- Self-contained and doesn't require a separate server process
+- Supports transactions and locking
 
+## Disadvantages:
+- Slower than H2
+- Limited support for advanced features like stored procedures and triggers
+- Not suitable for large-scale or high-traffic applications
+
+## Use Cases H2 Database:
+- Suitable for large-scale or high-traffic applications
+- Suitable for applications that require advanced features like stored procedures and triggers
+- Suitable for applications that require encryption
+
+## Use Cases SQLite:
+- Suitable for small to medium-sized applications
+- Suitable for applications that require a lightweight and easy-to-set-up database
+- Suitable for applications that require a self-contained database
+
+## Conclusion:
 H2 Database and SQLite are both suitable for different use cases. H2 Database is more suitable for large-scale or high-traffic applications that require advanced features, while SQLite is more suitable for small to medium-sized applications that require a lightweight and easy-to-set-up database.
 
+---
 
-SQL vs No-SQL
-When to Use SQL Databases:
+# SQL vs No-SQL
 
-When data is structured and well-defined.
-When data relationships are complex.
-When data consistency and reliability are critical.
-When SQL queries are necessary.
+## When to Use SQL Databases:
+- When data is structured and well-defined.
+- When data relationships are complex.
+- When data consistency and reliability are critical.
+- When SQL queries are necessary.
 
-When to Use NoSQL Databases:
+## When to Use NoSQL Databases:
+- When data is unstructured or semi-structured.
+- When data is large and complex.
+- When scalability and high performance are necessary.
+- When flexible schema is required.
 
-When data is unstructured or semi-structured.
-When data is large and complex.
-When scalability and high performance are necessary.
-When flexible schema is required.
+---
 
-Volatile vs Atomic objects: volatile is a keyword in Java that ensures that changes to a variable are immediately visible to other threads. When a variable is declared as volatile, the Java Virtual Machine (JVM) will always read the variable from the main memory, rather than from the local cache of the thread. This ensures that changes made by one thread are immediately visible to other threads.
+# Volatile vs Atomic objects 
 
-Atomic objects, on the other hand, are a class of objects that provide thread-safe operations for variables. They are part of the java.util.concurrent.atomic package and provide a way to update variables in a thread-safe manner.
+**Volatile** is a keyword in Java that ensures that changes to a variable are immediately visible to other threads. When a variable is declared as volatile, the Java Virtual Machine (JVM) will always read the variable from the main memory, rather than from the local cache of the thread. This ensures that changes made by one thread are immediately visible to other threads.
 
-Purpose: volatile variables ensure that changes to a variable are immediately visible to other threads, while Atomic objects provide thread-safe operations for variables.
-Scope: volatile variables are used for individual variables, while Atomic objects are used for a class of variables that require thread-safe operations.
-Performance: volatile variables can have a performance impact, as they require the JVM to always read the variable from main memory. Atomic objects, on the other hand, use lock-free algorithms to provide thread-safe operations, which can be more efficient.
-Use cases: volatile variables are typically used for simple variables that require immediate visibility, while Atomic objects are used for more complex variables that require thread-safe operations, such as counters or flags.
+**Atomic objects**, on the other hand, are a class of objects that provide thread-safe operations for variables. They are part of the java.util.concurrent.atomic package and provide a way to update variables in a thread-safe manner.
+
+- **Purpose**: volatile variables ensure that changes to a variable are immediately visible to other threads, while Atomic objects provide thread-safe operations for variables.
+- **Scope**: volatile variables are used for individual variables, while Atomic objects are used for a class of variables that require thread-safe operations.
+- **Performance**: volatile variables can have a performance impact, as they require the JVM to always read the variable from main memory. Atomic objects, on the other hand, use lock-free algorithms to provide thread-safe operations, which can be more efficient.
+- **Use cases**: volatile variables are typically used for simple variables that require immediate visibility, while Atomic objects are used for more complex variables that require thread-safe operations, such as counters or flags.
 
 
-Sequences vs collections
-Collections: Collections are data structures that hold a group of elements. They are eager in nature, meaning that operations on collections are executed immediately, and the entire collection is processed at once. Common collection types in Kotlin include List, Set, and Map.
-Sequences: Sequences are a way to represent a potentially infinite series of elements and are processed lazily. This means that elements are computed only when they are needed, allowing for more efficient processing, especially with large datasets.
-The main difference is eager (collections) vs lazy (sequences)
+# Sequences vs collections
+**Collections**: Collections are data structures that hold a group of elements. They are eager in nature, meaning that operations on collections are executed immediately, and the entire collection is processed at once. Common collection types in Kotlin include List, Set, and Map.
+**Sequences**: Sequences are a way to represent a potentially infinite series of elements and are processed lazily. This means that elements are computed only when they are needed, allowing for more efficient processing, especially with large datasets.
+- The main difference is eager (collections) vs lazy (sequences)
+
+---
+
 
