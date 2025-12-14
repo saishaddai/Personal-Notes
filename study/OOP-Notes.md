@@ -1,69 +1,83 @@
-1. Classes and Objects: A class is a blueprint or template that defines the properties and behavior of an object.
+# OOP
+
+## Fundaments
+- **Classes and Objects**: A class is a blueprint or template that defines the properties and behavior of an object.
 An object is an instance of a class, and it has its own set of attributes (data) and methods (functions).
 Classes are used to define the structure and behavior of objects, while objects are used to represent real-world entities.
 
-2. Inheritance: Inheritance is the process by which one class can inherit the properties and behavior of another class.
+- **Inheritance**: Inheritance is the process by which one class can inherit the properties and behavior of another class.
 The class that is being inherited from is called the superclass or parent class, while the class that is doing the inheriting is called the subclass or child class.
 Inheritance allows for code reuse and facilitates the creation of a hierarchy of classes.
 
-3. Polymorphism: Polymorphism is the ability of an object to take on multiple forms.
+- **Polymorphism**: Polymorphism is the ability of an object to take on multiple forms.
 This can be achieved through method overriding or method overloading.
 Method overriding occurs when a subclass provides a different implementation of a method that is already defined in its superclass.
 Method overloading occurs when multiple methods with the same name can be defined, but with different parameters.
 
-4. Encapsulation: Encapsulation is the concept of hiding the implementation details of an object from the outside world.
+- **Encapsulation**: Encapsulation is the concept of hiding the implementation details of an object from the outside world.
 This is achieved by making the data members of a class private and providing public methods to access and modify them.
 Encapsulation helps to protect the data from external interference and misuse.
 
-5. Abstraction: Abstraction is the concept of showing only the necessary information to the outside world while hiding the implementation details.
+---
+
+## Important concepts of OO
+
+- **Abstraction**: Abstraction is the concept of showing only the necessary information to the outside world while hiding the implementation details.
 This is achieved by defining a class that provides a simplified interface to the outside world while hiding the complex implementation details.
 Abstraction helps to reduce complexity and improve modularity.
 
-6. Composition: Composition is the concept of creating objects from other objects.
+- **Composition**: Composition is the concept of creating objects from other objects.
 This is achieved by defining a class that contains other objects as its members.
 Composition helps to create complex objects from simpler ones.
 
-7. Interfaces: An interface is a abstract class that defines a contract that must be implemented by any class that implements it.
+- **Interfaces**: An interface is a abstract class that defines a contract that must be implemented by any class that implements it.
 Interfaces are used to define a set of methods that must be implemented by a class.
 Interfaces are useful for defining a common set of methods that can be used by multiple classes.
 
-8. Abstract Classes: An abstract class is a class that cannot be instantiated on its own.
+- **Abstract Classes**: An abstract class is a class that cannot be instantiated on its own.
 Abstract classes are used to define a class that provides a partial implementation of a class.
 Abstract classes are useful for providing a common implementation of a class that can be shared by multiple subclasses.
 
-9. Constructors: A constructor is a special method that is used to initialize an object when it is created.
+- **Constructors**: A constructor is a special method that is used to initialize an object when it is created.
 Constructors are used to set the initial state of an object.
 Constructors can be overloaded to provide different ways of creating an object.
 
-10. Access Modifiers: Access modifiers are used to control access to the members of a class.
+- **Access Modifiers**: Access modifiers are used to control access to the members of a class.
 The most common access modifiers are public, private, protected, and default.
 Access modifiers help to control who can access the members of a class.
 
-Key Terms:
+---
 
-Instantiation: The process of creating an object from a class.
-Member: A variable or method that is part of a class.
-Method: A block of code that is part of a class and is used to perform a specific task.
-Property: A variable that is part of a class and is used to store data.
-State: The current values of an object's properties.
-Behavior: The actions that an object can perform.
+## Key Terms:
 
-Common OOP Principles:
+**Instantiation**: The process of creating an object from a class.
+**Member**: A variable or method that is part of a class.
+**Method**: A block of code that is part of a class and is used to perform a specific task.
+**Property**: A variable that is part of a class and is used to store data.
+**State**: The current values of an object's properties.
+**Behavior**: The actions that an object can perform.
 
-Single Responsibility Principle (SRP): A class should have only one reason to change.
-Open-Closed Principle (OCP): A class should be open for extension but closed for modification.
-Liskov Substitution Principle (LSP): A subclass should be substitutable for its superclass.
-Interface Segregation Principle (ISP): A client should not be forced to depend on interfaces it does not use.
-Dependency Inversion Principle (DIP): High-level modules should not depend on low-level modules, but both should depend on abstractions.
+---
 
-Common OOP Design Patterns:
+## Common OOP Principles SOLID
 
-Singleton Pattern: A class that can only have one instance.
-Factory Pattern: A class that creates objects without specifying the exact class of object that will be created.
-Observer Pattern: A class that notifies other classes of changes to its state.
-Strategy Pattern: A class that defines a family of algorithms, encapsulates each one, and makes them interchangeable.
-Template Method Pattern: A class that defines the skeleton of an algorithm in the superclass but lets subclasses override the steps of the algorithm without changing its structure.
+**Single Responsibility Principle (SRP)**: A class should have only one reason to change.
+**Open-Closed Principle (OCP)**: A class should be open for extension but closed for modification.
+**Liskov Substitution Principle (LSP)**: A subclass should be substitutable for its superclass.
+**Interface Segregation Principle (ISP)**: A client should not be forced to depend on interfaces it does not use.
+**Dependency Inversion Principle (DIP)**: High-level modules should not depend on low-level modules, but both should depend on abstractions.
 
+---
+
+## Common OOP Design Patterns:
+
+**Singleton Pattern**: A class that can only have one instance.
+**Factory Pattern**: A class that creates objects without specifying the exact class of object that will be created.
+**Observer Pattern**: A class that notifies other classes of changes to its state.
+**Strategy Pattern**: A class that defines a family of algorithms, encapsulates each one, and makes them interchangeable.
+**Template Method Pattern**: A class that defines the skeleton of an algorithm in the superclass but lets subclasses override the steps of the algorithm without changing its structure.
+
+---
 
 Coupling
 Definition: Coupling refers to the degree of interdependence between software modules. It measures how closely connected different components or classes are within a system.
