@@ -100,15 +100,16 @@ Access modifiers help to control who can access the members of a class.
   
 Benefits of Loose Coupling:
 
-Flexibility: Easier to change or replace components without affecting the entire system.
-Testability: Modules can be tested in isolation, making unit testing more straightforward.
-Maintainability: Reduces the risk of introducing bugs when modifying one part of the system.
-Cohesion
-Definition: Cohesion refers to how closely related and focused the responsibilities of a single module are. It measures the degree to which the elements within a module belong together.
+**Flexibility**: Easier to change or replace components without affecting the entire system.
+**Testability**: Modules can be tested in isolation, making unit testing more straightforward.
+**Maintainability**: Reduces the risk of introducing bugs when modifying one part of the system.
 
-Types of Cohesion:
+## Cohesion
+**Definition**: Cohesion refers to how closely related and focused the responsibilities of a single module are. It measures the degree to which the elements within a module belong together.
 
-Low Cohesion:
+**Types of Cohesion**:
+
+**Low Cohesion**:
 
 A module performs a wide variety of tasks that are not closely related.
 Example: A utility class that handles file operations, network communications, and data processing all in one.
@@ -116,11 +117,13 @@ High Cohesion:
 
 A module has a single, well-defined responsibility or purpose.
 Example: A class that only handles user authentication.
-Benefits of High Cohesion:
 
-Clarity: Easier to understand what a module does, as it has a clear purpose.
-Reusability: Highly cohesive modules can often be reused in different contexts.
-Maintainability: Changes to a module are easier to implement since its responsibilities are well-defined.
-Relationship Between Coupling and Cohesion
-Ideal Design: The best software design achieves high cohesion within modules and low coupling between them. This combination leads to systems that are easier to understand, maintain, and extend.
-Trade-offs: Sometimes, achieving high cohesion may lead to tighter coupling. However, careful design can often mitigate this issue by using interfaces and design patterns.
+## Benefits of High Cohesion:
+
+**Clarity**: Easier to understand what a module does, as it has a clear purpose.
+**Reusability**: Highly cohesive modules can often be reused in different contexts.
+**Maintainability**: Changes to a module are easier to implement since its responsibilities are well-defined.
+
+## Relationship Between Coupling and Cohesion
+**Ideal Design**: The best software design achieves high cohesion within modules and low coupling between them. This combination leads to systems that are easier to understand, maintain, and extend.
+**Trade-offs**: Sometimes, achieving high cohesion may lead to tighter coupling. However, careful design can often mitigate this issue by using interfaces and design patterns.
