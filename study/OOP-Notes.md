@@ -79,21 +79,25 @@ Access modifiers help to control who can access the members of a class.
 
 ---
 
-Coupling
-Definition: Coupling refers to the degree of interdependence between software modules. It measures how closely connected different components or classes are within a system.
+## Coupling
+**Definition**: Coupling refers to the degree of interdependence between software modules. It measures how closely connected different components or classes are within a system.
 
-Types of Coupling:
+**Types of Coupling**:
 
-Tight Coupling:
+**Tight Coupling**:
 
-Modules are highly dependent on each other.
-Changes in one module often require changes in another.
-Example: A class directly instantiating another class or relying heavily on its internal details.
-Loose Coupling:
+- Modules are highly dependent on each other.
+- Changes in one module often require changes in another.
+- Example: A class directly instantiating another class or relying heavily on its internal details.
 
-Modules are independent and interact through well-defined interfaces.
-Changes in one module have minimal impact on others.
-Example: Using interfaces or abstract classes to define interactions between modules.
+---
+
+## Loose Coupling:
+
+- Modules are independent and interact through well-defined interfaces.
+- Changes in one module have minimal impact on others.
+- Example: Using interfaces or abstract classes to define interactions between modules.
+  
 Benefits of Loose Coupling:
 
 Flexibility: Easier to change or replace components without affecting the entire system.
