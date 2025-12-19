@@ -1,0 +1,53 @@
+# Database Fundamentals
+
+**Data Modeling**: Understanding how to design and implement a database schema to store and manage data.
+**Database Normalization**: Learning how to normalize a database to minimize data redundancy and improve data integrity.
+**Database Denormalization**: Understanding when and how to denormalize a database to improve performance.
+**Data Types**: Familiarizing yourself with different data types, such as integer, string, date, and timestamp.
+
+---
+
+## Database Management Systems
+**Relational Databases**: Understanding the concepts of relational databases, such as tables, rows, columns, and relationships.
+**NoSQL Databases**: Learning about NoSQL databases, such as key-value, document, graph, and column-family databases.
+**Database Systems**: Studying different database systems, such as MySQL, PostgreSQL, Microsoft SQL Server, and Oracle.
+
+---
+
+## Database Design
+**Entity-Relationship Modeling**: Understanding how to design a database using entity-relationship modeling.
+**Database Schema Design**: Learning how to design a database schema to meet the requirements of an application.
+**Indexing**: Understanding how to use indexing to improve database performance.
+**Query Optimization**: Learning how to optimize database queries for better performance.
+
+---
+
+## Database Security
+**Authentication**: Understanding how to authenticate users and control access to a database.
+**Authorization**: Learning how to authorize users to perform specific actions on a database.
+**Encryption**: Understanding how to encrypt data to protect it from unauthorized access.
+**Access Control**: Studying how to control access to a database using access control mechanisms.
+
+---
+
+## Database Performance
+**Query Tuning**: Learning how to tune database queries for better performance.
+**Indexing**: Understanding how to use indexing to improve database performance.
+**Caching**: Studying how to use caching to improve database performance.
+**Scaling**: Understanding how to scale a database to handle increasing loads.
+
+---
+
+## Database Administration
+**Backup and Recovery**: Learning how to backup and recover a database in case of a failure.
+**Database Maintenance**: Understanding how to perform routine maintenance tasks, such as updating statistics and running database checks.
+**Performance Monitoring**: Studying how to monitor database performance and identify bottlenecks.
+**Troubleshooting**: Learning how to troubleshoot common database issues.
+
+---
+
+## Database Development
+**SQL**: Understanding how to write SQL queries to interact with a database.
+**Database Programming**: Learning how to use programming languages, such as Java, Python, or C#, to interact with a database.
+**ORMs**: Studying how to use Object-Relational Mappers (ORMs) to interact with a database.
+**Database APIs**: Understanding how to use database APIs to interact with a database.
