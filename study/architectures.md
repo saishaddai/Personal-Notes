@@ -84,49 +84,50 @@ Commonly used in web applications, especially those where the View needs to be u
 
 
 
-Large`try-catch` blocks 
+- Large`try-catch` blocks 
 
 Having a large try block in Java can lead to several issues, making it generally advisable to use multiple smaller try blocks instead. Here are some key reasons why large try blocks can be problematic:
 
-1. Reduced Readability
+1. **Reduced Readability**
 Complexity: A large try block can make the code harder to read and understand. When multiple operations are wrapped in a single try, it becomes difficult to discern which operation might throw an exception.
 Maintenance: Code that is hard to read is also harder to maintain. Future developers (or even the original author) may struggle to understand the flow of the program.
-2. Poor Exception Handling
+2. **Poor Exception Handling**
 Generic Catch Blocks: If a large try block catches exceptions generically (e.g., catch (Exception e)), it can obscure the source of the error. This makes debugging more challenging, as you may not know which part of the code caused the exception.
 Inappropriate Recovery: Different operations may require different recovery strategies. A single catch block for a large try may not allow for appropriate handling of each specific exception type.
-3. Resource Management
+3. **Resource Management**
 Resource Leaks: If resources (like file handles, database connections, etc.) are opened within a large try block, it can be difficult to ensure they are properly closed in the event of an exception. Smaller try blocks can help ensure that resources are managed more effectively.
 Finally Blocks: Using finally blocks for resource cleanup becomes more complicated with larger try blocks, as you may need multiple finally blocks for different resources.
-4. Performance Concerns
+4. **Performance Concerns**
 Overhead: While the performance impact may be minimal, larger try blocks can introduce unnecessary overhead in terms of exception handling. If an exception is thrown, the entire block must be unwound, which can be more costly than handling exceptions in smaller, more focused blocks.
-5. Testing and Debugging
+5. **Testing and Debugging**
 Difficult to Isolate Issues: When an exception occurs in a large try block, it can be challenging to isolate the exact line of code that caused the issue. Smaller blocks allow for easier identification of problematic code.
 Unit Testing: Smaller try blocks can facilitate better unit testing, as you can test specific sections of code independently.
 
 
-
-Hexagonal (ports and adapters)
-Core Application Logic:
-
+## Hexagonal (ports and adapters)
+- Core Application Logic:
 The central part of the application, often referred to as the "domain" or "business logic."
 It contains the rules and behaviors of the application, independent of any external systems.
-Ports:
 
+- Ports:
 Interfaces that define how the core application interacts with the outside world.
-There are two types of ports:
-Inbound Ports: Define how external actors (like users or other systems) can interact with the application. They represent the application's use cases.
-Outbound Ports: Define how the application communicates with external systems (like databases, message queues, or third-party services).
-Adapters:
+  
+- There are two types of ports:
+**Inbound Ports**: Define how external actors (like users or other systems) can interact with the application. They represent the application's use cases.
+**Outbound Ports**: Define how the application communicates with external systems (like databases, message queues, or third-party services).
 
+- Adapters:
 Implementations of the ports that connect the core application to external systems.
-Adapters can be:
-Inbound Adapters: Convert external requests (e.g., HTTP requests) into calls to the inbound ports.
-Outbound Adapters: Convert calls from the core application to the format required by external systems (e.g., database queries).
-Benefits
-Separation of Concerns: The architecture clearly separates the core logic from external dependencies, making it easier to manage and evolve each part independently.
-Testability: The core application can be tested in isolation by mocking the ports, allowing for unit tests without needing to interact with external systems.
-Flexibility: Changes to external systems (like switching databases or APIs) can be made with minimal impact on the core application logic, as only the adapters need to be modified.
-Maintainability: The clear structure helps in understanding the application flow and makes it easier to maintain and extend the application.
+  
+- Adapters can be:
+**Inbound Adapters**: Convert external requests (e.g., HTTP requests) into calls to the inbound ports.
+**Outbound Adapters**: Convert calls from the core application to the format required by external systems (e.g., database queries).
+
+- Benefits
+**Separation of Concerns**: The architecture clearly separates the core logic from external dependencies, making it easier to manage and evolve each part independently.
+**Testability**: The core application can be tested in isolation by mocking the ports, allowing for unit tests without needing to interact with external systems.
+**Flexibility**: Changes to external systems (like switching databases or APIs) can be made with minimal impact on the core application logic, as only the adapters need to be modified.
+**Maintainability**: The clear structure helps in understanding the application flow and makes it easier to maintain and extend the application.
 
 
 
