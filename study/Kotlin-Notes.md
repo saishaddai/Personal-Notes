@@ -1,21 +1,24 @@
-Kotlin Notes
+# Kotlin Notes
 
 
-Basic Types: Numbers, Unsigned Numbers, Booleans, Strings, Characters, Arrays
-Numbers: Byte, Short, Int, Long, Float, Double
-Unsigned: UByte, UShort, UInt, ULong (No UFloat nor UDouble)
-Classes: is a blueprint for creating objects that contain data and functions that operate on that data. Classes are the fundamental building blocks of object-oriented programming (OOP) in Kotlin.
-Constructors: Primary and Secondary
-Primary Constructor: The primary constructor is the main constructor of the class, and it's used to initialize the class properties. The primary constructor is defined using the constructor keyword.
-Secondary Constructor: In addition to the primary constructor, a class can have secondary constructors, which are used to provide alternative ways to initialize the class. Secondary constructors are defined using the constructor keyword.
-init blocks: a special block of code that is executed when an object is created. It is used to initialize the properties of a class and perform any necessary setup. Used for Initialization, Validation, Setup, Logging
-Open Classes: In Kotlin, an open class is a class that can be inherited from. By default, all classes in Kotlin are final, which means they cannot be inherited from. To allow a class to be inherited from, you need to declare it as open using the open keyword
-Open methods: an open method is a method that can be overridden by subclasses. By default, all methods in Kotlin are final, which means they cannot be overridden. To allow a method to be overridden, you need to declare it as open using the open keyword.
-Abstract classes: an abstract class is a class that cannot be instantiated on its own and is intended to be inherited by other classes. Abstract classes are used to provide a partial implementation of a class that can be shared by multiple subclasses.
-Abstract methods: are methods that are declared in an abstract class but do not have an implementation. They must be implemented by any subclass of the abstract class.
-Interfaces: an interface is a abstract class that can contain abstract methods and properties. Interfaces are used to define a contract that must be implemented by any class that implements it
-Object: In Kotlin, an object is a singleton class that can have properties, functions, and initialization code. Objects are used to create a single instance of a class that can be accessed globally
-Java Interfaces VS Kotlin Interfaces
+**Basic Types**: Numbers, Unsigned Numbers, Booleans, Strings, Characters, Arrays
+**Numbers**: Byte, Short, Int, Long, Float, Double
+**Unsigned**: UByte, UShort, UInt, ULong (No UFloat nor UDouble)
+**Classes**: is a blueprint for creating objects that contain data and functions that operate on that data. Classes are the fundamental building blocks of object-oriented programming (OOP) in Kotlin.
+**Constructors**: Primary and Secondary
+**Primary Constructor**: The primary constructor is the main constructor of the class, and it's used to initialize the class properties. The primary constructor is defined using the constructor keyword.
+**Secondary Constructor**: In addition to the primary constructor, a class can have secondary constructors, which are used to provide alternative ways to initialize the class. Secondary constructors are defined using the `constructor` keyword.
+**init blocks**: a special block of code that is executed when an object is created. It is used to initialize the properties of a class and perform any necessary setup. Used for Initialization, Validation, Setup, Logging
+**Open Classes**: In Kotlin, an open class is a class that can be inherited from. By default, all classes in Kotlin are final, which means they cannot be inherited from. To allow a class to be inherited from, you need to declare it as open using the open keyword
+**Open methods**: an open method is a method that can be overridden by subclasses. By default, all methods in Kotlin are final, which means they cannot be overridden. To allow a method to be overridden, you need to declare it as open using the `open` keyword.
+**Abstract classes**: an abstract class is a class that cannot be instantiated on its own and is intended to be inherited by other classes. Abstract classes are used to provide a partial implementation of a class that can be shared by multiple subclasses.
+**Abstract methods**: are methods that are declared in an abstract class but do not have an implementation. They must be implemented by any subclass of the abstract class.
+**Interfaces**: an interface is a abstract class that can contain abstract methods and properties. Interfaces are used to define a contract that must be implemented by any class that implements it
+**Object**: In Kotlin, an object is a singleton class that can have properties, functions, and initialization code. Objects are used to create a single instance of a class that can be accessed globally
+
+---
+
+## Java Interfaces VS Kotlin Interfaces
 Java abstract classes VS Kotlin Open Classes
 companion objects: a companion object is an object that is defined inside a class and is used to provide a way to access a set of related functions and properties. Companion objects are similar to static members in other languages, but they are more powerful and flexible
 named companion objects: In Kotlin, you can define a named companion object inside a class to provide a way to access a set of related functions and properties.
