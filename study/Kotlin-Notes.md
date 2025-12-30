@@ -1,41 +1,47 @@
 # Kotlin Notes
 
+## General Knowledge
+- **Basic Types**: Numbers, Unsigned Numbers, Booleans, Strings, Characters, Arrays
+- **Numbers**: Byte, Short, Int, Long, Float, Double
+- **Unsigned**: UByte, UShort, UInt, ULong (No UFloat nor UDouble)
+- **Classes**: is a blueprint for creating objects that contain data and functions that operate on that data. Classes are the fundamental building blocks of object-oriented programming (OOP) in Kotlin.
+- **Constructors**: Primary and Secondary
+- **Primary Constructor**: The primary constructor is the main constructor of the class, and it's used to initialize the class properties. The primary constructor is defined using the constructor keyword.
+- **Secondary Constructor**: In addition to the primary constructor, a class can have secondary constructors, which are used to provide alternative ways to initialize the class. Secondary constructors are defined using the `constructor` keyword.
+- **init blocks**: a special block of code that is executed when an object is created. It is used to initialize the properties of a class and perform any necessary setup. Used for
 
-**Basic Types**: Numbers, Unsigned Numbers, Booleans, Strings, Characters, Arrays
-**Numbers**: Byte, Short, Int, Long, Float, Double
-**Unsigned**: UByte, UShort, UInt, ULong (No UFloat nor UDouble)
-**Classes**: is a blueprint for creating objects that contain data and functions that operate on that data. Classes are the fundamental building blocks of object-oriented programming (OOP) in Kotlin.
-**Constructors**: Primary and Secondary
-**Primary Constructor**: The primary constructor is the main constructor of the class, and it's used to initialize the class properties. The primary constructor is defined using the constructor keyword.
-**Secondary Constructor**: In addition to the primary constructor, a class can have secondary constructors, which are used to provide alternative ways to initialize the class. Secondary constructors are defined using the `constructor` keyword.
-**init blocks**: a special block of code that is executed when an object is created. It is used to initialize the properties of a class and perform any necessary setup. Used for Initialization, Validation, Setup, Logging
-**Open Classes**: In Kotlin, an open class is a class that can be inherited from. By default, all classes in Kotlin are final, which means they cannot be inherited from. To allow a class to be inherited from, you need to declare it as open using the open keyword
-**Open methods**: an open method is a method that can be overridden by subclasses. By default, all methods in Kotlin are final, which means they cannot be overridden. To allow a method to be overridden, you need to declare it as open using the `open` keyword.
-**Abstract classes**: an abstract class is a class that cannot be instantiated on its own and is intended to be inherited by other classes. Abstract classes are used to provide a partial implementation of a class that can be shared by multiple subclasses.
-**Abstract methods**: are methods that are declared in an abstract class but do not have an implementation. They must be implemented by any subclass of the abstract class.
-**Interfaces**: an interface is a abstract class that can contain abstract methods and properties. Interfaces are used to define a contract that must be implemented by any class that implements it
-**Object**: In Kotlin, an object is a singleton class that can have properties, functions, and initialization code. Objects are used to create a single instance of a class that can be accessed globally
+## Initialization, Validation, Setup, Logging
+- **Open Classes**: In Kotlin, an open class is a class that can be inherited from. By default, all classes in Kotlin are final, which means they cannot be inherited from. To allow a class to be inherited from, you need to declare it as open using the open keyword
+- **Open methods**: an open method is a method that can be overridden by subclasses. By default, all methods in Kotlin are final, which means they cannot be overridden. To allow a method to be overridden, you need to declare it as open using the `open` keyword.
+- **Abstract classes**: an abstract class is a class that cannot be instantiated on its own and is intended to be inherited by other classes. Abstract classes are used to provide a partial implementation of a class that can be shared by multiple subclasses.
+- **Abstract methods**: are methods that are declared in an abstract class but do not have an implementation. They must be implemented by any subclass of the abstract class.
+- **Interfaces**: an interface is a abstract class that can contain abstract methods and properties. Interfaces are used to define a contract that must be implemented by any class that implements it
+- **Object**: In Kotlin, an object is a singleton class that can have properties, functions, and initialization code. Objects are used to create a single instance of a class that can be accessed globally
 
 ---
 
 ## Java Interfaces VS Kotlin Interfaces
-Java abstract classes VS Kotlin Open Classes
-companion objects: a companion object is an object that is defined inside a class and is used to provide a way to access a set of related functions and properties. Companion objects are similar to static members in other languages, but they are more powerful and flexible
-named companion objects: In Kotlin, you can define a named companion object inside a class to provide a way to access a set of related functions and properties.
-Java static final variables vs Kotlin companion objects
-SAM Conversions: SAM (Single Abstract Method) conventions are a set of rules that allow you to use functional interfaces (interfaces with a single abstract method) as functional types. This means you can use lambda expressions, function references, or method references to implement functional interfaces.
-Functional Interfaces: A functional interface is an interface that has only one abstract method. This method is called the "single abstract method" (SAM). Functional interfaces are often used as targets for lambda expressions or method references.
-Rules of SAM Conventions:
-The interface must have only one abstract method: The interface must have only one abstract method, which is the SAM.
-The interface must be annotated with @FunctionalInterface: The interface must be annotated with @FunctionalInterface to indicate that it's a functional interface.
-The SAM method must be the only abstract method: The SAM method must be the only abstract method in the interface.
-Usages of SAM Conventions: SAM conventions are commonly used in various scenarios, such as:
+- Java abstract classes VS Kotlin Open Classes
+- **companion objects**: a companion object is an object that is defined inside a class and is used to provide a way to access a set of related functions and properties. Companion objects are similar to static members in other languages, but they are more powerful and flexible
+- **named companion objects**: In Kotlin, you can define a named companion object inside a class to provide a way to access a set of related functions and properties.
 
-Event handling: Functional interfaces are often used as event handlers, where a single method is called in response to an event.
-Callback functions: Functional interfaces are used as callback functions, where a single method is called when a specific condition is met.
-Data processing: Functional interfaces are used to process data, where a single method is called to transform or manipulate the data.
+---
 
-Visibility modifiers: public, private, internal, protected
+## Java static final variables vs Kotlin companion objects
+- SAM Conversions: SAM (Single Abstract Method) conventions are a set of rules that allow you to use functional interfaces (interfaces with a single abstract method) as functional types. This means you can use lambda expressions, function references, or method references to implement functional interfaces.
+- **Functional Interfaces**: A functional interface is an interface that has only one abstract method. This method is called the "single abstract method" (SAM). Functional interfaces are often used as targets for lambda expressions or method references.
+
+- Rules of SAM Conventions:
+1. The interface must have only one abstract method: The interface must have only one abstract method, which is the SAM.
+2. The interface must be annotated with @FunctionalInterface: The interface must be annotated with @FunctionalInterface to indicate that it's a functional interface.
+3. The SAM method must be the only abstract method: The SAM method must be the only abstract method in the interface.
+4. Usages of SAM Conventions: SAM conventions are commonly used in various scenarios, such as:
+
+- **Event handling**: Functional interfaces are often used as event handlers, where a single method is called in response to an event.
+- **Callback functions**: Functional interfaces are used as callback functions, where a single method is called when a specific condition is met.
+- **Data processing**: Functional interfaces are used to process data, where a single method is called to transform or manipulate the data.
+
+## Visibility modifiers: public, private, internal, protected
 Class Members: public, private, internal, protected
 Extensions: is a function that adds functionality to an existing class without modifying the class itself. It's a way to extend the functionality of a class without inheriting from it or modifying its source code
 Data Classes: is a special type of class that is used to hold data. It is a concise way to create classes that contain only immutable data and require little to no boilerplate code. It is immutable, concise and data-only
@@ -71,7 +77,7 @@ Volatile: In Java, volatile is used to ensure that changes to a variable are imm
 
 Currying in Kotlin: Currying is a technique in functional programming that allows you to transform a function with multiple arguments into a sequence of functions, each with a single argument. This process enables you to break down a complex function into smaller, simpler functions that can be composed together.
 
-Class Modifiers in Kotlin
+## Class Modifiers in Kotlin
 Public: This is the default visibility modifier. Members marked as public are visible everywhere
 Private: Members marked as private are visible only within the class or file where they are declared.
 Protected: Members marked as protected are visible within the class and its subclasses. Note that protected cannot be applied to top-level declarations
