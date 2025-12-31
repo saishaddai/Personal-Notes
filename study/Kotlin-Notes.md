@@ -42,20 +42,23 @@
 - **Data processing**: Functional interfaces are used to process data, where a single method is called to transform or manipulate the data.
 
 ## Visibility modifiers: public, private, internal, protected
-Class Members: public, private, internal, protected
-Extensions: is a function that adds functionality to an existing class without modifying the class itself. It's a way to extend the functionality of a class without inheriting from it or modifying its source code
-Data Classes: is a special type of class that is used to hold data. It is a concise way to create classes that contain only immutable data and require little to no boilerplate code. It is immutable, concise and data-only
-Sealed Classes: a sealed class is a type of class that can be inherited by a fixed set of subclasses. It is used to represent a closed set of alternatives, where the subclasses are known in advance.
-Sealed Interfaces:  a sealed interface is a type of interface that can be implemented by a fixed set of classes. It is used to represent a closed set of alternatives, where the implementing classes are known in advance.
-Diff Sealed classes and sealed interfaces:Use sealed classes when you need to represent a closed set of alternatives with state. Use sealed interfaces when you need to represent a closed set of alternatives without state. 
-Nested Clases: In Kotlin, a nested class is a class that is defined inside another class. Nested classes are also known as inner classes.
-Enums: In Kotlin, an enum (short for enumeration) is a special type of class that represents a fixed set of constants. Enums are used to define a set of named values that have underlying types, such as integers or strings.
-Enums vs Seales Classes:
-- Extensibility: Enums are not extensible, while sealed classes can be extended by subclasses.
-- Type Safety: Enums are type-safe, while sealed classes are also type-safe, but with more flexibility.
-- Underlying Type: Enums have an underlying type, such as an integer or a string, while sealed classes do not have an underlying type.
-- Named Values: Enums have named values, while sealed classes have named subclasses.
-- Use Cases: Enums are useful when you need to define a set of constants, while sealed classes are useful when you need to define a closed set of alternatives that can be extended by subclasses.
+- **Class Members**: public, private, internal, protected
+- **Extensions**: is a function that adds functionality to an existing class without modifying the class itself. It's a way to extend the functionality of a class without inheriting from it or modifying its source code
+- **Data Classes**: is a special type of class that is used to hold data. It is a concise way to create classes that contain only immutable data and require little to no boilerplate code. It is immutable, concise and data-only
+- **Sealed Classes**: a sealed class is a type of class that can be inherited by a fixed set of subclasses. It is used to represent a closed set of alternatives, where the subclasses are known in advance.
+- **Sealed Interfaces**:  a sealed interface is a type of interface that can be implemented by a fixed set of classes. It is used to represent a closed set of alternatives, where the implementing classes are known in advance.
+- **Diff Sealed classes and sealed interfaces**: Use sealed classes when you need to represent a closed set of alternatives with state. Use sealed interfaces when you need to represent a closed set of alternatives without state. 
+- **Nested Clases**: In Kotlin, a nested class is a class that is defined inside another class. Nested classes are also known as inner classes.
+- **Enums**: In Kotlin, an enum (short for enumeration) is a special type of class that represents a fixed set of constants. Enums are used to define a set of named values that have underlying types, such as integers or strings.
+- **Enums vs Seales Classes**:
+-- Extensibility: Enums are not extensible, while sealed classes can be extended by subclasses.
+-- Type Safety: Enums are type-safe, while sealed classes are also type-safe, but with more flexibility.
+-- Underlying Type: Enums have an underlying type, such as an integer or a string, while sealed classes do not have an underlying type.
+-- Named Values: Enums have named values, while sealed classes have named subclasses.
+-- Use Cases: Enums are useful when you need to define a set of constants, while sealed classes are useful when you need to define a closed set of alternatives that can be extended by subclasses.
+
+---
+  
 Annonimous classes: Extensibility: Enums are not extensible, while sealed classes can be extended by subclasses.
 Type Safety: Enums are type-safe, while sealed classes are also type-safe, but with more flexibility.
 Underlying Type: Enums have an underlying type, such as an integer or a string, while sealed classes do not have an underlying type.
