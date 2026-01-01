@@ -51,47 +51,45 @@
 - **Nested Clases**: In Kotlin, a nested class is a class that is defined inside another class. Nested classes are also known as inner classes.
 - **Enums**: In Kotlin, an enum (short for enumeration) is a special type of class that represents a fixed set of constants. Enums are used to define a set of named values that have underlying types, such as integers or strings.
 - **Enums vs Seales Classes**:
--- Extensibility: Enums are not extensible, while sealed classes can be extended by subclasses.
--- Type Safety: Enums are type-safe, while sealed classes are also type-safe, but with more flexibility.
--- Underlying Type: Enums have an underlying type, such as an integer or a string, while sealed classes do not have an underlying type.
--- Named Values: Enums have named values, while sealed classes have named subclasses.
--- Use Cases: Enums are useful when you need to define a set of constants, while sealed classes are useful when you need to define a closed set of alternatives that can be extended by subclasses.
+  - Extensibility: Enums are not extensible, while sealed classes can be extended by subclasses.
+  - Type Safety: Enums are type-safe, while sealed classes are also type-safe, but with more flexibility.
+  - Underlying Type: Enums have an underlying type, such as an integer or a string, while sealed classes do not have an underlying type.
+  - Named Values: Enums have named values, while sealed classes have named subclasses.
+  - Use Cases: Enums are useful when you need to define a set of constants, while sealed classes are useful when you need to define a closed set of alternatives that can be extended by subclasses.
 
 ---
   
-Annonimous classes: Extensibility: Enums are not extensible, while sealed classes can be extended by subclasses.
-Type Safety: Enums are type-safe, while sealed classes are also type-safe, but with more flexibility.
-Underlying Type: Enums have an underlying type, such as an integer or a string, while sealed classes do not have an underlying type.
-Named Values: Enums have named values, while sealed classes have named subclasses.
-Use Cases: Enums are useful when you need to define a set of constants, while sealed classes are useful when you need to define a closed set of alternatives that can be extended by subclasses. 
-Inline Value Classes: @JvmInLine an inline value class is a special type of class that is used to wrap a value of a certain type. Inline value classes are used to create a new type that is based on an existing type, but with additional functionality or constraints.
-Delegation: Overriding and use of 'by': Delegation is a design pattern that allows an object to delegate some of its responsibilities to another object. In Kotlin, delegation is implemented using the by keyword.
-You should use by when you need to delegate the implementation of an interface or a class to another object. This is commonly used in situations such as:
-- Implementing interfaces: You can use by to delegate the implementation of an interface to an object that already implements that interface.
-- Extending classes: You can use by to delegate the implementation of a subclass to an object of the superclass.
-- Reducing code duplication: You can use by to avoid duplicating code by delegating the implementation of an interface or a class to another object.
+- **Annonimous classes**: Extensibility: Enums are not extensible, while sealed classes can be extended by subclasses.
+- **Type Safety**: Enums are type-safe, while sealed classes are also type-safe, but with more flexibility.
+- **Underlying Type**: Enums have an underlying type, such as an integer or a string, while sealed classes do not have an underlying type.
+- **Named Values**: Enums have named values, while sealed classes have named subclasses.
+- **Use Cases**: Enums are useful when you need to define a set of constants, while sealed classes are useful when you need to define a closed set of alternatives that can be extended by subclasses. 
+- **Inline Value Classes**: @JvmInLine an inline value class is a special type of class that is used to wrap a value of a certain type. Inline value classes are used to create a new type that is based on an existing type, but with additional functionality or constraints.
+- **Delegation**: Overriding and use of 'by': Delegation is a design pattern that allows an object to delegate some of its responsibilities to another object. In Kotlin, delegation is implemented using the by keyword.
+- You should use by when you need to delegate the implementation of an interface or a class to another object. This is commonly used in situations such as:
+  - Implementing interfaces: You can use by to delegate the implementation of an interface to an object that already implements that interface.
+  - Extending classes: You can use by to delegate the implementation of a subclass to an object of the superclass.
+  - Reducing code duplication: You can use by to avoid duplicating code by delegating the implementation of an interface or a class to another object.
 
-Lambda functions: a lambda function is a small, anonymous function that can be defined inline within a larger expression. Lambda functions are often used to implement functional interfaces, such as event handlers or callback functions.
-
-Transient: In Kotlin, there is no direct equivalent to Java's transient keyword. However, you can achieve similar behavior using other mechanisms. In Java, transient is used to indicate that a field should not be serialized. In Kotlin, you can use the @Transient annotation from the kotlinx.serialization library to achieve the same effect. Alternatively, you can use the lateinit keyword to declare a property that will not be serialized. This approach is useful when you need to initialize the property later in the code.
-
-Volatile: In Java, volatile is used to ensure that changes to a variable are immediately visible to other threads. In Kotlin, you can use the @Volatile annotation from the kotlinx.atomicfu library to achieve the same effect.
-
-
-Currying in Kotlin: Currying is a technique in functional programming that allows you to transform a function with multiple arguments into a sequence of functions, each with a single argument. This process enables you to break down a complex function into smaller, simpler functions that can be composed together.
+- **Lambda functions**: a lambda function is a small, anonymous function that can be defined inline within a larger expression. Lambda functions are often used to implement functional interfaces, such as event handlers or callback functions.
+- **Transient**: In Kotlin, there is no direct equivalent to Java's `transient` keyword. However, you can achieve similar behavior using other mechanisms. In Java, transient is used to indicate that a field should not be serialized. In Kotlin, you can use the @Transient annotation from the kotlinx.serialization library to achieve the same effect. Alternatively, you can use the `lateinit` keyword to declare a property that will not be serialized. This approach is useful when you need to initialize the property later in the code.
+- **Volatile**: In Java, volatile is used to ensure that changes to a variable are immediately visible to other threads. In Kotlin, you can use the @Volatile annotation from the kotlinx.atomicfu library to achieve the same effect.
+- **Currying in Kotlin**: Currying is a technique in functional programming that allows you to transform a function with multiple arguments into a sequence of functions, each with a single argument. This process enables you to break down a complex function into smaller, simpler functions that can be composed together.
 
 ## Class Modifiers in Kotlin
-Public: This is the default visibility modifier. Members marked as public are visible everywhere
-Private: Members marked as private are visible only within the class or file where they are declared.
-Protected: Members marked as protected are visible within the class and its subclasses. Note that protected cannot be applied to top-level declarations
-Internal: Members marked as internal are visible within the same module. A module is a set of Kotlin files compiled together (e.g., a Maven or Gradle project).
-Open: By default, classes in Kotlin are final, meaning they cannot be subclassed. To allow a class to be subclassed, you must mark it with the open modifier.
-Abstract: An abstract class cannot be instantiated and may contain abstract methods (methods without a body) that must be implemented by subclasses.
-Data: A data class is a special type of class that is primarily used to hold data. It automatically provides equals(), hashCode(), and toString() methods, as well as copy() and component functions.
-Sealed: A sealed class restricts class hierarchies to a limited set of subclasses. All subclasses must be declared within the same file as the sealed class.
-Inner: An inner class is a non-static nested class that has access to the members of its outer class.
+- **Public**: This is the default visibility modifier. Members marked as public are visible everywhere
+- **Private**: Members marked as private are visible only within the class or file where they are declared.
+- **Protected**: Members marked as protected are visible within the class and its subclasses. Note that protected cannot be applied to top-level declarations
+- **Internal**: Members marked as internal are visible within the same module. A module is a set of Kotlin files compiled together (e.g., a Maven or Gradle project).
+- **Open**: By default, classes in Kotlin are final, meaning they cannot be subclassed. To allow a class to be subclassed, you must mark it with the open modifier.
+- **Abstract**: An abstract class cannot be instantiated and may contain abstract methods (methods without a body) that must be implemented by subclasses.
+- **Data**: A data class is a special type of class that is primarily used to hold data. It automatically provides equals(), hashCode(), and toString() methods, as well as copy() and component functions.
+- **Sealed**: A sealed class restricts class hierarchies to a limited set of subclasses. All subclasses must be declared within the same file as the sealed class.
+- **Inner**: An inner class is a non-static nested class that has access to the members of its outer class.
 
-inline functions: In Kotlin, the inline modifier is used primarily with functions to optimize performance by reducing the overhead of function calls. When a function is marked as inline, the compiler attempts to replace the function call with the actual function body at the call site. This can lead to improved performance, especially in cases where the function is small and called frequently.
-Type erasure: Type erasure is a concept in Java (and Kotlin) where the generic type information is removed during compilation. For example, if you have a generic class or function like List<T>, at runtime, it is treated as just List without any knowledge of what T is. This can lead to limitations when you want to perform type checks or casts based on the generic type.
+---
+
+- **inline functions**: In Kotlin, the inline modifier is used primarily with functions to optimize performance by reducing the overhead of function calls. When a function is marked as inline, the compiler attempts to replace the function call with the actual function body at the call site. This can lead to improved performance, especially in cases where the function is small and called frequently.
+- **Type erasure**: Type erasure is a concept in Java (and Kotlin) where the generic type information is removed during compilation. For example, if you have a generic class or function like List<T>, at runtime, it is treated as just List without any knowledge of what T is. This can lead to limitations when you want to perform type checks or casts based on the generic type.
 When you declare a generic function with the reified modifier, you can access the type information of the generic parameter at runtime. This is particularly useful for functions that need to perform type checks or casts based on the generic type. 
 
